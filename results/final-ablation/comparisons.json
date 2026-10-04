@@ -1,0 +1,26 @@
+[
+  {
+    "name": "tuned_density",
+    "delta_shots_vs_baseline": -0.7295,
+    "paired_seed_bootstrap_95ci": [
+      -1.231,
+      -0.2435
+    ]
+  },
+  {
+    "name": "without_endgame",
+    "delta_shots_vs_baseline": -0.695,
+    "paired_seed_bootstrap_95ci": [
+      -1.22,
+      -0.1945
+    ]
+  },
+  {
+    "name": "champion",
+    "delta_shots_vs_baseline": -0.62,
+    "paired_seed_bootstrap_95ci": [
+      -1.1525,
+      -0.1145
+    ]
+  }
+]

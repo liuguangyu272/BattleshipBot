@@ -1,0 +1,53 @@
+COMMAND: python -m unittest discover -s tests -v
+test_adjacent_ships_ambiguous_hits (test_bots.BotTests.test_adjacent_ships_ambiguous_hits) ... ok
+test_all_bots_complete_games (test_bots.BotTests.test_all_bots_complete_games) ... ok
+test_bellman_exact_two_endpoints (test_bots.BotTests.test_bellman_exact_two_endpoints) ... ok
+test_bot_does_not_mutate_observation (test_bots.BotTests.test_bot_does_not_mutate_observation) ... ok
+test_defensive_placement_valid_and_reproducible (test_bots.BotTests.test_defensive_placement_valid_and_reproducible) ... ok
+test_faults_forfeit_and_cleanup (test_bots.BotTests.test_faults_forfeit_and_cleanup) ... ok
+test_independent_brute_force_posterior (test_bots.BotTests.test_independent_brute_force_posterior) ... ok
+test_policy_rejects_nonfinite (test_bots.BotTests.test_policy_rejects_nonfinite) ... ok
+test_save_reload_reproduces_entire_trajectory (test_bots.BotTests.test_save_reload_reproduces_entire_trajectory) ... ok
+test_feedback_remaining_touching_and_terminal (test_core.RulesTests.test_feedback_remaining_touching_and_terminal) ... ok
+test_fleet_geometry (test_core.RulesTests.test_fleet_geometry) ... ok
+test_illegal_is_atomic (test_core.RulesTests.test_illegal_is_atomic) ... ok
+test_observation_isolation (test_core.RulesTests.test_observation_isolation) ... ok
+test_replay_rejects_tampering (test_core.RulesTests.test_replay_rejects_tampering) ... ok
+test_seeded_deploy_valid_diverse (test_core.RulesTests.test_seeded_deploy_valid_diverse) ... ok
+test_hard_deadline_kills_child (test_protocol_ui.ProtocolUITests.test_hard_deadline_kills_child) ... ok
+test_observation_validator (test_protocol_ui.ProtocolUITests.test_observation_validator) ... ok
+test_real_subprocess_game (test_protocol_ui.ProtocolUITests.test_real_subprocess_game) ... ok
+test_ui_full_demo_and_human (test_protocol_ui.ProtocolUITests.test_ui_full_demo_and_human) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 3.265s
+
+OK
+
+COMMAND: python -m battleship demo --bot champion --opponent density --seed 20261004 --style native --out replays/packaged-demo.json
+{
+  "seed": 20261004,
+  "first": 0,
+  "bots": [
+    "champion",
+    "density"
+  ],
+  "style": "native",
+  "winner": 1,
+  "shots": [
+    47,
+    47
+  ],
+  "faults": [],
+  "setup_ms": [
+    289.75600004196167,
+    0.12310000602155924
+  ],
+  "plies": 94
+}
+Replay: D:\Codex\2026-10-04\ai-bot-bot-battleship-bot-bot\outputs\battleship\work\package-smoke-istf6sle\battleship\replays\packaged-demo.json
+
+COMMAND: python -m battleship replay replays/packaged-demo.json
+Replay verified: winner=1, plies=94
+
+Packaged demo exactly matches all 94 original actions and feedback events.

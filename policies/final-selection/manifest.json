@@ -1,0 +1,18 @@
+{
+  "selected": 4,
+  "validation_seeds": [
+    35000,
+    35599
+  ],
+  "styles": [
+    "uniform",
+    "edge",
+    "cluster",
+    "spread"
+  ],
+  "final_seeds_reserved": [
+    900000,
+    999999
+  ],
+  "defense_selection": "12 candidates, selected on 34000..34199; see endgame-defense/defense.json"
+}

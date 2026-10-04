@@ -1,0 +1,199 @@
+{
+  "candidate": "champion",
+  "rules": {
+    "size": 10,
+    "fleet": [
+      5,
+      4,
+      3,
+      3,
+      2
+    ],
+    "rule_id": "local-classic-touching-v1"
+  },
+  "seed_start": 900000,
+  "pairs_per_cell": 500,
+  "time_limit_ms": 1000,
+  "timing_enforcement": "trusted in-process bots: measured after return; external adapter uses hard deadline",
+  "python": "3.14.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 4,
+  "logical_cpus": 20,
+  "results": [
+    {
+      "opponent": "random",
+      "style": "uniform",
+      "games": 1000,
+      "independent_seeds": 500,
+      "wins": 1000,
+      "win_rate": 1.0,
+      "paired_bootstrap_95ci": [
+        1,
+        1
+      ],
+      "first_win_rate": 1,
+      "second_win_rate": 1,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 1.6176632046754091,
+      "action_ms_p95": 6.393600022420287,
+      "action_ms_max": 17.239499953575432
+    },
+    {
+      "opponent": "random",
+      "style": "native",
+      "games": 1000,
+      "independent_seeds": 500,
+      "wins": 1000,
+      "win_rate": 1.0,
+      "paired_bootstrap_95ci": [
+        1,
+        1
+      ],
+      "first_win_rate": 1,
+      "second_win_rate": 1,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 1.6487992327419998,
+      "action_ms_p95": 6.662899977527559,
+      "action_ms_max": 14.880500035360456
+    },
+    {
+      "opponent": "hunt",
+      "style": "uniform",
+      "games": 1000,
+      "independent_seeds": 500,
+      "wins": 661,
+      "win_rate": 0.661,
+      "paired_bootstrap_95ci": [
+        0.621,
+        0.701
+      ],
+      "first_win_rate": 0.678,
+      "second_win_rate": 0.644,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 1.7395727371382481,
+      "action_ms_p95": 6.766100006643683,
+      "action_ms_max": 14.909499965142459
+    },
+    {
+      "opponent": "hunt",
+      "style": "native",
+      "games": 1000,
+      "independent_seeds": 500,
+      "wins": 683,
+      "win_rate": 0.683,
+      "paired_bootstrap_95ci": [
+        0.642,
+        0.723
+      ],
+      "first_win_rate": 0.698,
+      "second_win_rate": 0.668,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.0282452829980286,
+      "action_ms_p95": 7.681499992031604,
+      "action_ms_max": 18.58209999045357
+    },
+    {
+      "opponent": "density",
+      "style": "uniform",
+      "games": 1000,
+      "independent_seeds": 500,
+      "wins": 462,
+      "win_rate": 0.462,
+      "paired_bootstrap_95ci": [
+        0.419,
+        0.506
+      ],
+      "first_win_rate": 0.472,
+      "second_win_rate": 0.452,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.413673321019018,
+      "action_ms_p95": 8.982600003946573,
+      "action_ms_max": 18.554800015408546
+    },
+    {
+      "opponent": "density",
+      "style": "native",
+      "games": 1000,
+      "independent_seeds": 500,
+      "wins": 672,
+      "win_rate": 0.672,
+      "paired_bootstrap_95ci": [
+        0.631,
+        0.713
+      ],
+      "first_win_rate": 0.684,
+      "second_win_rate": 0.66,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 1.9179392246987992,
+      "action_ms_p95": 7.391100050881505,
+      "action_ms_max": 14.572700019925833
+    },
+    {
+      "opponent": "admiral",
+      "style": "uniform",
+      "games": 1000,
+      "independent_seeds": 500,
+      "wins": 453,
+      "win_rate": 0.453,
+      "paired_bootstrap_95ci": [
+        0.409,
+        0.497
+      ],
+      "first_win_rate": 0.472,
+      "second_win_rate": 0.434,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.4949163640772563,
+      "action_ms_p95": 9.293200040701777,
+      "action_ms_max": 18.749999988358468
+    },
+    {
+      "opponent": "admiral",
+      "style": "native",
+      "games": 1000,
+      "independent_seeds": 500,
+      "wins": 622,
+      "win_rate": 0.622,
+      "paired_bootstrap_95ci": [
+        0.581,
+        0.663
+      ],
+      "first_win_rate": 0.634,
+      "second_win_rate": 0.61,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.178568252329587,
+      "action_ms_p95": 8.28220002586022,
+      "action_ms_max": 16.844699974171817
+    }
+  ],
+  "source_sha256": {
+    "battleship/__init__.py": "8f3b01668606f28c076dab868dc986fa0eafb40dcf5e44374ffdbaf987ebe6ff",
+    "battleship/__main__.py": "26679836280a61d69a20587ee77fe2e3edee28e1adfa5069ba3d4fc30c1c0b4d",
+    "battleship/arena.py": "80f5d027e9611e858779cb693ff0ae78c0bcb8e3dfafcaf3fcf63e23e00ee811",
+    "battleship/bots.py": "b958bd72140bd8fd9695b76503d6370fd37da42b8b61d0661f4f6bee1fbe5f8c",
+    "battleship/core.py": "14239233c3a44d94ff4bac33b325153cb1f52613892fbd1b815e7fb9151c453a",
+    "battleship/optimize.py": "9fe03950ac185cb640d041b8034ece77745272e2b088cb1058f7bda267ccb152",
+    "battleship/protocol.py": "7a37ecf11d03fff146c93999cb69b0eea00521c993c32152125309c9d74e0a4e",
+    "battleship/webui.py": "500ac517f9fc64c801d65fe07f6bdbda148d0c9de99d0ee310a437f3e39bfded"
+  },
+  "policies_sha256": {
+    "policies/attack-only.json": "4c206af2958d8cd5a8fa33ea57c67ac9eb369dc2adbec365b2e961e8db247ec0",
+    "policies/champion.json": "9a32112e88f5b22226a54989cd6b872a1f6c324ee65a529b9b0e8400a253f71f"
+  },
+  "wall_seconds": 569.6776896000374
+}

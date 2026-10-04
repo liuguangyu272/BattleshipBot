@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "mode": "hybrid",
+  "samples": 256,
+  "hunt_power": 0,
+  "target_power": 2,
+  "sink_bonus": 0,
+  "info_bonus": 0.0,
+  "parity_bonus": 0,
+  "edge_bias": 0.0,
+  "joint_mix": 0.5,
+  "exact_limit": 20000,
+  "deployment": "mixed"
+}

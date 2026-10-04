@@ -1,0 +1,19 @@
+{
+  "search_seed": 20261004,
+  "dev_seed_range": [
+    10000,
+    10099
+  ],
+  "validation_seed_range": [
+    30000,
+    30099
+  ],
+  "selected_trial": 1,
+  "selection": "minimum validation mean shots across four deployment styles",
+  "final_test_seed_range_reserved": [
+    900000,
+    999999
+  ],
+  "trials": 16,
+  "boards_per_style": 100
+}

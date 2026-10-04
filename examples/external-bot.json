@@ -1,0 +1,6 @@
+{
+  "argv": ["python", "-m", "battleship", "protocol", "--bot", "champion"],
+  "cwd": ".",
+  "timeout_ms": 1000,
+  "setup_timeout_ms": 5000
+}

@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "total_final_duels": 13220,
+  "illegal_actions": 0,
+  "timeouts": 0,
+  "faults": 0,
+  "max_action_ms_both_players": 43.6661999556236,
+  "max_setup_ms_both_players": 695.4084999742918,
+  "checks": [
+    "final-main: counts, hashes, faults, first two seed clusters reproduced",
+    "final-stress: counts, hashes, faults, first two seed clusters reproduced",
+    "final-defense: counts, hashes, faults, first two seed clusters reproduced",
+    "final-strong-defense: counts, hashes, faults, first two seed clusters reproduced",
+    "final-external: counts, hashes, faults, first two seed clusters reproduced",
+    "final-demo exact complete action sequence reproduced",
+    "all 20 external matches agree with equivalent in-process champion"
+  ]
+}

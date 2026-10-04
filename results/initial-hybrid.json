@@ -1,0 +1,249 @@
+{
+  "mean_shots": 44,
+  "stdev": 9.776448607158995,
+  "boards": 20,
+  "mean_ms_per_board": 49.79886503715534,
+  "max_action_ms": 6.804700009524822,
+  "rows": [
+    {
+      "seed": 1000,
+      "style": "uniform",
+      "shots": 50,
+      "ms": 64.1881002811715,
+      "max_ms": 5.385000025853515,
+      "methods": {
+        "density": 16,
+        "importance": 13,
+        "exact": 21
+      }
+    },
+    {
+      "seed": 1001,
+      "style": "uniform",
+      "shots": 53,
+      "ms": 43.89550001360476,
+      "max_ms": 3.385299991350621,
+      "methods": {
+        "density": 13,
+        "importance": 12,
+        "exact": 28
+      }
+    },
+    {
+      "seed": 1002,
+      "style": "uniform",
+      "shots": 43,
+      "ms": 29.041499947197735,
+      "max_ms": 2.4556999560445547,
+      "methods": {
+        "density": 17,
+        "importance": 12,
+        "exact": 14
+      }
+    },
+    {
+      "seed": 1003,
+      "style": "uniform",
+      "shots": 37,
+      "ms": 55.22529996233061,
+      "max_ms": 4.724500002339482,
+      "methods": {
+        "density": 8,
+        "importance": 15,
+        "exact": 14
+      }
+    },
+    {
+      "seed": 1004,
+      "style": "uniform",
+      "shots": 62,
+      "ms": 65.3761001303792,
+      "max_ms": 5.55010000243783,
+      "methods": {
+        "density": 6,
+        "importance": 10,
+        "exact": 46
+      }
+    },
+    {
+      "seed": 1005,
+      "style": "uniform",
+      "shots": 61,
+      "ms": 59.463499987032264,
+      "max_ms": 6.737200019415468,
+      "methods": {
+        "density": 9,
+        "importance": 14,
+        "exact": 38
+      }
+    },
+    {
+      "seed": 1006,
+      "style": "uniform",
+      "shots": 40,
+      "ms": 45.272599963936955,
+      "max_ms": 3.891000000294298,
+      "methods": {
+        "density": 10,
+        "importance": 11,
+        "exact": 19
+      }
+    },
+    {
+      "seed": 1007,
+      "style": "uniform",
+      "shots": 36,
+      "ms": 48.962200118694454,
+      "max_ms": 6.051200034562498,
+      "methods": {
+        "density": 8,
+        "importance": 12,
+        "exact": 16
+      }
+    },
+    {
+      "seed": 1008,
+      "style": "uniform",
+      "shots": 30,
+      "ms": 29.872200218960643,
+      "max_ms": 3.425000002607703,
+      "methods": {
+        "density": 7,
+        "importance": 11,
+        "exact": 12
+      }
+    },
+    {
+      "seed": 1009,
+      "style": "uniform",
+      "shots": 40,
+      "ms": 58.58740006806329,
+      "max_ms": 4.329100018367171,
+      "methods": {
+        "density": 11,
+        "importance": 14,
+        "exact": 15
+      }
+    },
+    {
+      "seed": 1010,
+      "style": "uniform",
+      "shots": 56,
+      "ms": 55.90239993762225,
+      "max_ms": 6.804700009524822,
+      "methods": {
+        "density": 19,
+        "importance": 11,
+        "exact": 26
+      }
+    },
+    {
+      "seed": 1011,
+      "style": "uniform",
+      "shots": 41,
+      "ms": 54.15889999130741,
+      "max_ms": 5.8658000198192894,
+      "methods": {
+        "density": 12,
+        "importance": 11,
+        "exact": 18
+      }
+    },
+    {
+      "seed": 1012,
+      "style": "uniform",
+      "shots": 40,
+      "ms": 75.97720011835918,
+      "max_ms": 6.156200019177049,
+      "methods": {
+        "density": 2,
+        "importance": 10,
+        "exact": 28
+      }
+    },
+    {
+      "seed": 1013,
+      "style": "uniform",
+      "shots": 36,
+      "ms": 33.473100047558546,
+      "max_ms": 3.661499998997897,
+      "methods": {
+        "density": 14,
+        "importance": 8,
+        "exact": 14
+      }
+    },
+    {
+      "seed": 1014,
+      "style": "uniform",
+      "shots": 55,
+      "ms": 51.12110008485615,
+      "max_ms": 5.651799961924553,
+      "methods": {
+        "density": 20,
+        "importance": 8,
+        "exact": 27
+      }
+    },
+    {
+      "seed": 1015,
+      "style": "uniform",
+      "shots": 39,
+      "ms": 65.67499984521419,
+      "max_ms": 5.874500027857721,
+      "methods": {
+        "density": 5,
+        "importance": 15,
+        "exact": 19
+      }
+    },
+    {
+      "seed": 1016,
+      "style": "uniform",
+      "shots": 42,
+      "ms": 41.57000005943701,
+      "max_ms": 3.4913000417873263,
+      "methods": {
+        "density": 12,
+        "importance": 13,
+        "exact": 17
+      }
+    },
+    {
+      "seed": 1017,
+      "style": "uniform",
+      "shots": 43,
+      "ms": 32.840299885720015,
+      "max_ms": 3.850199980661273,
+      "methods": {
+        "density": 18,
+        "importance": 10,
+        "exact": 15
+      }
+    },
+    {
+      "seed": 1018,
+      "style": "uniform",
+      "shots": 26,
+      "ms": 47.45890002232045,
+      "max_ms": 6.204799981787801,
+      "methods": {
+        "density": 4,
+        "importance": 14,
+        "exact": 8
+      }
+    },
+    {
+      "seed": 1019,
+      "style": "uniform",
+      "shots": 50,
+      "ms": 37.91600005934015,
+      "max_ms": 2.569700009189546,
+      "methods": {
+        "density": 10,
+        "importance": 10,
+        "exact": 30
+      }
+    }
+  ]
+}

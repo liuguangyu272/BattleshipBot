@@ -1,0 +1,41 @@
+{
+  "status": "complete_local_delivery",
+  "date": "2026-10-04",
+  "timezone": "Asia/Shanghai",
+  "entrypoint": "start.cmd or python -m battleship serve",
+  "runtime": "Python >=3.11; tested 3.14.7; standard library only",
+  "rules": "local-classic-touching-v1",
+  "official_competition_verified": false,
+  "tests_passed": 19,
+  "clean_zip_extraction_tested": true,
+  "full_demo_verified": true,
+  "final_match_verification": {
+    "ok": true,
+    "total_final_duels": 13220,
+    "illegal_actions": 0,
+    "timeouts": 0,
+    "faults": 0,
+    "max_action_ms_both_players": 43.6661999556236,
+    "max_setup_ms_both_players": 695.4084999742918,
+    "checks": [
+      "final-main: counts, hashes, faults, first two seed clusters reproduced",
+      "final-stress: counts, hashes, faults, first two seed clusters reproduced",
+      "final-defense: counts, hashes, faults, first two seed clusters reproduced",
+      "final-strong-defense: counts, hashes, faults, first two seed clusters reproduced",
+      "final-external: counts, hashes, faults, first two seed clusters reproduced",
+      "final-demo exact complete action sequence reproduced",
+      "all 20 external matches agree with equivalent in-process champion"
+    ]
+  },
+  "policy": "policies/champion.json",
+  "five_hour_quota_remaining": null,
+  "quota_check": "No exposed account quota; desktop screenshot did not show the quota panel",
+  "shutdown_performed": false,
+  "shutdown_reason": "Other work saved was not confirmed, as required by the user",
+  "limitations": [
+    "No official protocol or opponent provided",
+    "Uniform/cluster attack regression against probability baselines",
+    "Deployment selection benefit is opponent-dependent",
+    "Only one machine and Python version measured"
+  ]
+}

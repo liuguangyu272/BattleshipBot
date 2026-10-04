@@ -1,0 +1,2 @@
+# Python >= 3.11. Runtime uses only the Python standard library.
+# Run from this project directory; no pip installation is required.

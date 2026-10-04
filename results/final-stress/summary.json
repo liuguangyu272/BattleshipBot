@@ -1,0 +1,219 @@
+{
+  "candidate": "champion",
+  "rules": {
+    "size": 10,
+    "fleet": [
+      5,
+      4,
+      3,
+      3,
+      2
+    ],
+    "rule_id": "local-classic-touching-v1"
+  },
+  "seed_start": 910000,
+  "pairs_per_cell": 200,
+  "time_limit_ms": 1000,
+  "timing_enforcement": "trusted in-process bots: measured after return; external adapter uses hard deadline",
+  "python": "3.14.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 4,
+  "logical_cpus": 20,
+  "results": [
+    {
+      "opponent": "hunt",
+      "style": "edge",
+      "games": 400,
+      "independent_seeds": 200,
+      "wins": 292,
+      "win_rate": 0.73,
+      "paired_bootstrap_95ci": [
+        0.6675,
+        0.7925
+      ],
+      "first_win_rate": 0.74,
+      "second_win_rate": 0.72,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 1.8850300755791611,
+      "action_ms_p95": 6.942799955140799,
+      "action_ms_max": 14.841800031717867
+    },
+    {
+      "opponent": "hunt",
+      "style": "cluster",
+      "games": 400,
+      "independent_seeds": 200,
+      "wins": 216,
+      "win_rate": 0.54,
+      "paired_bootstrap_95ci": [
+        0.4725,
+        0.6075
+      ],
+      "first_win_rate": 0.56,
+      "second_win_rate": 0.52,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 1.819370993590768,
+      "action_ms_p95": 7.118699955753982,
+      "action_ms_max": 16.098099993541837
+    },
+    {
+      "opponent": "hunt",
+      "style": "spread",
+      "games": 400,
+      "independent_seeds": 200,
+      "wins": 277,
+      "win_rate": 0.6925,
+      "paired_bootstrap_95ci": [
+        0.6275,
+        0.755
+      ],
+      "first_win_rate": 0.7,
+      "second_win_rate": 0.685,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 1.8813129107607893,
+      "action_ms_p95": 7.008999993558973,
+      "action_ms_max": 15.416400041431189
+    },
+    {
+      "opponent": "density",
+      "style": "edge",
+      "games": 400,
+      "independent_seeds": 200,
+      "wins": 261,
+      "win_rate": 0.6525,
+      "paired_bootstrap_95ci": [
+        0.59,
+        0.7175
+      ],
+      "first_win_rate": 0.68,
+      "second_win_rate": 0.625,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.119859336982804,
+      "action_ms_p95": 7.711899990681559,
+      "action_ms_max": 15.018799982499331
+    },
+    {
+      "opponent": "density",
+      "style": "cluster",
+      "games": 400,
+      "independent_seeds": 200,
+      "wins": 177,
+      "win_rate": 0.4425,
+      "paired_bootstrap_95ci": [
+        0.3775,
+        0.51
+      ],
+      "first_win_rate": 0.46,
+      "second_win_rate": 0.425,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.069543821413344,
+      "action_ms_p95": 7.969799975398928,
+      "action_ms_max": 15.185500029474497
+    },
+    {
+      "opponent": "density",
+      "style": "spread",
+      "games": 400,
+      "independent_seeds": 200,
+      "wins": 212,
+      "win_rate": 0.53,
+      "paired_bootstrap_95ci": [
+        0.4625,
+        0.5975
+      ],
+      "first_win_rate": 0.55,
+      "second_win_rate": 0.51,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.4767664655855923,
+      "action_ms_p95": 9.00229997932911,
+      "action_ms_max": 14.513399975840002
+    },
+    {
+      "opponent": "admiral",
+      "style": "edge",
+      "games": 400,
+      "independent_seeds": 200,
+      "wins": 255,
+      "win_rate": 0.6375,
+      "paired_bootstrap_95ci": [
+        0.5725,
+        0.705
+      ],
+      "first_win_rate": 0.65,
+      "second_win_rate": 0.625,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.6382700598781637,
+      "action_ms_p95": 9.556000004522502,
+      "action_ms_max": 43.6661999556236
+    },
+    {
+      "opponent": "admiral",
+      "style": "cluster",
+      "games": 400,
+      "independent_seeds": 200,
+      "wins": 182,
+      "win_rate": 0.455,
+      "paired_bootstrap_95ci": [
+        0.39,
+        0.5225
+      ],
+      "first_win_rate": 0.47,
+      "second_win_rate": 0.44,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.4241382382034127,
+      "action_ms_p95": 9.320400014985353,
+      "action_ms_max": 16.113199992105365
+    },
+    {
+      "opponent": "admiral",
+      "style": "spread",
+      "games": 400,
+      "independent_seeds": 200,
+      "wins": 207,
+      "win_rate": 0.5175,
+      "paired_bootstrap_95ci": [
+        0.45,
+        0.585
+      ],
+      "first_win_rate": 0.525,
+      "second_win_rate": 0.51,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.4795606382132895,
+      "action_ms_p95": 8.998900011647493,
+      "action_ms_max": 14.80409997748211
+    }
+  ],
+  "source_sha256": {
+    "battleship/__init__.py": "8f3b01668606f28c076dab868dc986fa0eafb40dcf5e44374ffdbaf987ebe6ff",
+    "battleship/__main__.py": "26679836280a61d69a20587ee77fe2e3edee28e1adfa5069ba3d4fc30c1c0b4d",
+    "battleship/arena.py": "80f5d027e9611e858779cb693ff0ae78c0bcb8e3dfafcaf3fcf63e23e00ee811",
+    "battleship/bots.py": "b958bd72140bd8fd9695b76503d6370fd37da42b8b61d0661f4f6bee1fbe5f8c",
+    "battleship/core.py": "14239233c3a44d94ff4bac33b325153cb1f52613892fbd1b815e7fb9151c453a",
+    "battleship/optimize.py": "9fe03950ac185cb640d041b8034ece77745272e2b088cb1058f7bda267ccb152",
+    "battleship/protocol.py": "7a37ecf11d03fff146c93999cb69b0eea00521c993c32152125309c9d74e0a4e",
+    "battleship/webui.py": "500ac517f9fc64c801d65fe07f6bdbda148d0c9de99d0ee310a437f3e39bfded"
+  },
+  "policies_sha256": {
+    "policies/attack-only.json": "4c206af2958d8cd5a8fa33ea57c67ac9eb369dc2adbec365b2e961e8db247ec0",
+    "policies/champion.json": "9a32112e88f5b22226a54989cd6b872a1f6c324ee65a529b9b0e8400a253f71f"
+  },
+  "wall_seconds": 114.04856569995172
+}

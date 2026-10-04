@@ -1,0 +1,47 @@
+{
+  "http": {
+    "plies": 78,
+    "winner": 1,
+    "replay_verified": true
+  },
+  "browser": [
+    {
+      "ok": true,
+      "checks": [
+        "100 own cells",
+        "100 enemy cells",
+        "hidden enemy withheld",
+        "human action and AI response",
+        "rule card stays open",
+        "postgame reveal",
+        "replay download enabled",
+        "card preserved through game updates",
+        "complete replay available",
+        "replay scrubber renders",
+        "no horizontal overflow"
+      ],
+      "plies": 86,
+      "winner": 1,
+      "width": 1335
+    },
+    {
+      "ok": true,
+      "checks": [
+        "100 own cells",
+        "100 enemy cells",
+        "hidden enemy withheld",
+        "human action and AI response",
+        "rule card stays open",
+        "postgame reveal",
+        "replay download enabled",
+        "card preserved through game updates",
+        "complete replay available",
+        "replay scrubber renders",
+        "no horizontal overflow"
+      ],
+      "plies": 74,
+      "winner": 1,
+      "width": 504
+    }
+  ]
+}

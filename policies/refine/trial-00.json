@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "mode": "density",
+  "samples": 128,
+  "hunt_power": 0,
+  "target_power": 3.0,
+  "sink_bonus": 0.15,
+  "info_bonus": 0.0,
+  "parity_bonus": 0,
+  "edge_bias": 0.0,
+  "target_bonus": 0.0,
+  "joint_mix": 1.0,
+  "exact_limit": 20000,
+  "deployment": "mixed"
+}
