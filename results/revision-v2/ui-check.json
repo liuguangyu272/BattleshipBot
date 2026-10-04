@@ -1,0 +1,88 @@
+{
+  "ports": {
+    "game": 8767,
+    "proxy": 8768
+  },
+  "browser": [
+    {
+      "ok": true,
+      "checks": [
+        "100 own cells",
+        "100 enemy cells",
+        "hidden enemy withheld",
+        "human action and AI response",
+        "balanced opponent completes a human game turn",
+        "100 own cells",
+        "100 enemy cells",
+        "real page refresh restores the exact active game",
+        "refresh does not reveal enemy fleet",
+        "refresh restores the selected opponent",
+        "restored game can continue",
+        "explanation card stays open",
+        "complete demonstration reveals enemy fleet",
+        "completed game download enabled",
+        "explanation card preserved through game updates",
+        "normal game download matches server replay",
+        "imported replay is a different game",
+        "replay frame zero clears previous battle log",
+        "replay clears unrelated AI timing",
+        "scrubbed battle log matches the selected replay frame",
+        "replay shot statistics follow the selected frame",
+        "shuffle cannot alter the hidden live game during replay",
+        "download saves the displayed imported replay",
+        "scrubbing backward removes future battle log entries",
+        "exit replay restores the original live game battle log",
+        "exit replay restores live game timing",
+        "exit replay restores the original game download",
+        "no horizontal overflow"
+      ],
+      "plies": 89,
+      "winner": 0,
+      "width": 1335
+    },
+    {
+      "ok": true,
+      "checks": [
+        "100 own cells",
+        "100 enemy cells",
+        "hidden enemy withheld",
+        "human action and AI response",
+        "balanced opponent completes a human game turn",
+        "100 own cells",
+        "100 enemy cells",
+        "real page refresh restores the exact active game",
+        "refresh does not reveal enemy fleet",
+        "refresh restores the selected opponent",
+        "restored game can continue",
+        "explanation card stays open",
+        "complete demonstration reveals enemy fleet",
+        "completed game download enabled",
+        "explanation card preserved through game updates",
+        "normal game download matches server replay",
+        "imported replay is a different game",
+        "replay frame zero clears previous battle log",
+        "replay clears unrelated AI timing",
+        "scrubbed battle log matches the selected replay frame",
+        "replay shot statistics follow the selected frame",
+        "shuffle cannot alter the hidden live game during replay",
+        "download saves the displayed imported replay",
+        "scrubbing backward removes future battle log entries",
+        "exit replay restores the original live game battle log",
+        "exit replay restores live game timing",
+        "exit replay restores the original game download",
+        "no horizontal overflow"
+      ],
+      "plies": 63,
+      "winner": 0,
+      "width": 510
+    }
+  ],
+  "game_pid": 51376,
+  "http": {
+    "plies": 75,
+    "winner": 0,
+    "replay_verified": true
+  },
+  "game_stopped": true,
+  "proxy_stopped": true
+}

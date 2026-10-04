@@ -1,13 +1,20 @@
 COMMAND: python -m unittest discover -s tests -v
 test_adjacent_ships_ambiguous_hits (test_bots.BotTests.test_adjacent_ships_ambiguous_hits) ... ok
 test_all_bots_complete_games (test_bots.BotTests.test_all_bots_complete_games) ... ok
+test_balanced_indistinguishable_hidden_layouts (test_bots.BotTests.test_balanced_indistinguishable_hidden_layouts) ... ok
 test_bellman_exact_two_endpoints (test_bots.BotTests.test_bellman_exact_two_endpoints) ... ok
 test_bot_does_not_mutate_observation (test_bots.BotTests.test_bot_does_not_mutate_observation) ... ok
 test_defensive_placement_valid_and_reproducible (test_bots.BotTests.test_defensive_placement_valid_and_reproducible) ... ok
 test_faults_forfeit_and_cleanup (test_bots.BotTests.test_faults_forfeit_and_cleanup) ... ok
 test_independent_brute_force_posterior (test_bots.BotTests.test_independent_brute_force_posterior) ... ok
 test_policy_rejects_nonfinite (test_bots.BotTests.test_policy_rejects_nonfinite) ... ok
+test_robust_deployment_is_private_reproducible_and_valid (test_bots.BotTests.test_robust_deployment_is_private_reproducible_and_valid) ... ok
 test_save_reload_reproduces_entire_trajectory (test_bots.BotTests.test_save_reload_reproduces_entire_trajectory) ... ok
+test_config_rejects_invalid_values (test_context.ContextTests.test_config_rejects_invalid_values) ... ok
+test_disabled_context_reproduces_champion (test_context.ContextTests.test_disabled_context_reproduces_champion) ... ok
+test_misses_and_sunk_update_finite_normalized_weights (test_context.ContextTests.test_misses_and_sunk_update_finite_normalized_weights) ... ok
+test_publicly_indistinguishable_states (test_context.ContextTests.test_publicly_indistinguishable_states) ... ok
+test_save_reload_same_complete_trajectory (test_context.ContextTests.test_save_reload_same_complete_trajectory) ... ok
 test_feedback_remaining_touching_and_terminal (test_core.RulesTests.test_feedback_remaining_touching_and_terminal) ... ok
 test_fleet_geometry (test_core.RulesTests.test_fleet_geometry) ... ok
 test_illegal_is_atomic (test_core.RulesTests.test_illegal_is_atomic) ... ok
@@ -20,7 +27,7 @@ test_real_subprocess_game (test_protocol_ui.ProtocolUITests.test_real_subprocess
 test_ui_full_demo_and_human (test_protocol_ui.ProtocolUITests.test_ui_full_demo_and_human) ... ok
 
 ----------------------------------------------------------------------
-Ran 19 tests in 3.265s
+Ran 26 tests in 3.139s
 
 OK
 
@@ -40,14 +47,42 @@ COMMAND: python -m battleship demo --bot champion --opponent density --seed 2026
   ],
   "faults": [],
   "setup_ms": [
-    289.75600004196167,
-    0.12310000602155924
+    179.5554999844171,
+    0.10980002116411924
   ],
   "plies": 94
 }
-Replay: D:\Codex\2026-10-04\ai-bot-bot-battleship-bot-bot\outputs\battleship\work\package-smoke-istf6sle\battleship\replays\packaged-demo.json
+Replay: D:\Codex\2026-10-04\ai-bot-bot-battleship-bot-bot\outputs\battleship\work\package-smoke-4qh6mo6u\battleship\replays\packaged-demo.json
 
 COMMAND: python -m battleship replay replays/packaged-demo.json
 Replay verified: winner=1, plies=94
 
+COMMAND: python -m battleship demo --bot fortress --opponent champion --seed 20261005 --style native --out replays/packaged-fortress.json
+{
+  "seed": 20261005,
+  "first": 0,
+  "bots": [
+    "fortress",
+    "champion"
+  ],
+  "style": "native",
+  "winner": 0,
+  "shots": [
+    34,
+    33
+  ],
+  "faults": [],
+  "setup_ms": [
+    1346.0410999832675,
+    166.873799986206
+  ],
+  "plies": 67
+}
+Replay: D:\Codex\2026-10-04\ai-bot-bot-battleship-bot-bot\outputs\battleship\work\package-smoke-4qh6mo6u\battleship\replays\packaged-fortress.json
+
+COMMAND: python -m battleship replay replays/packaged-fortress.json
+Replay verified: winner=0, plies=67
+
 Packaged demo exactly matches all 94 original actions and feedback events.
+
+Packaged Fortress demo exactly matches all saved actions and feedback events.

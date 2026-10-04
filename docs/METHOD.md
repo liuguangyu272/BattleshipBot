@@ -1,5 +1,7 @@
 # 算法、优化与信息边界
 
+本文记录第一版冻结 Champion。第二轮推荐的 Fortress 保留其攻击算法、改进部署筛选；新结果及代价见 [REVISION_V2.md](../REVISION_V2.md)。
+
 ## 最终 Bot
 
 `champion` 从 `policies/champion.json` 加载冻结参数。它不是神经网络，不需要 GPU 或模型下载。舰船的几何约束和公开反馈足够支持直接推断，避免在有限资源下从零学习规则。

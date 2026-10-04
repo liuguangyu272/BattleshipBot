@@ -6,7 +6,7 @@
   "runtime": "Python >=3.11; tested 3.14.7; standard library only",
   "rules": "local-classic-touching-v1",
   "official_competition_verified": false,
-  "tests_passed": 19,
+  "tests_passed": 26,
   "clean_zip_extraction_tested": true,
   "full_demo_verified": true,
   "final_match_verification": {
@@ -29,7 +29,7 @@
   },
   "policy": "policies/champion.json",
   "five_hour_quota_remaining": null,
-  "quota_check": "No exposed account quota; desktop screenshot did not show the quota panel",
+  "quota_check": "Parallel research hit a platform usage limit; new research stopped, existing final evaluation and delivery completed",
   "shutdown_performed": false,
   "shutdown_reason": "Other work saved was not confirmed, as required by the user",
   "limitations": [
@@ -37,5 +37,25 @@
     "Uniform/cluster attack regression against probability baselines",
     "Deployment selection benefit is opponent-dependent",
     "Only one machine and Python version measured"
-  ]
+  ],
+  "revision_v2": {
+    "ok": true,
+    "new_duels": 9410,
+    "faults": 0,
+    "illegal_actions": 0,
+    "timeouts": 0,
+    "max_action_ms_both_players": 26.536499965004623,
+    "max_setup_ms_both_players": 1998.76090005273,
+    "frozen_fortress_source_policy_verified": true,
+    "all_conditions_first_pair_reproduced": true,
+    "demo": "replays/fortress-demo.json",
+    "demo_winner": 0,
+    "ui_checks_each_viewport": [
+      28,
+      28
+    ],
+    "legacy_verification": "results/revision-v2/legacy-verification.json",
+    "fortress_external_equivalence_games": 10
+  },
+  "recommended_policy": "policies/fortress.json"
 }

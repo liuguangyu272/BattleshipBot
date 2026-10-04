@@ -1,0 +1,63 @@
+{
+  "candidate": "exec:examples/fortress-bot.json",
+  "rules": {
+    "size": 10,
+    "fleet": [
+      5,
+      4,
+      3,
+      3,
+      2
+    ],
+    "rule_id": "local-classic-touching-v1"
+  },
+  "seed_start": 1630000,
+  "pairs_per_cell": 5,
+  "time_limit_ms": 1000,
+  "timing_enforcement": "trusted in-process bots: measured after return; external adapter uses hard deadline",
+  "python": "3.14.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 2,
+  "logical_cpus": 20,
+  "results": [
+    {
+      "opponent": "champion",
+      "style": "native",
+      "games": 10,
+      "independent_seeds": 5,
+      "wins": 8,
+      "win_rate": 0.8,
+      "paired_bootstrap_95ci": [
+        0.4,
+        1
+      ],
+      "first_win_rate": 0.8,
+      "second_win_rate": 0.8,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.4151995790338048,
+      "action_ms_p95": 8.122499973978847,
+      "action_ms_max": 12.467399996239692
+    }
+  ],
+  "source_sha256": {
+    "battleship/__init__.py": "8f3b01668606f28c076dab868dc986fa0eafb40dcf5e44374ffdbaf987ebe6ff",
+    "battleship/__main__.py": "26679836280a61d69a20587ee77fe2e3edee28e1adfa5069ba3d4fc30c1c0b4d",
+    "battleship/arena.py": "80f5d027e9611e858779cb693ff0ae78c0bcb8e3dfafcaf3fcf63e23e00ee811",
+    "battleship/bots.py": "a54e94d2a16f6302d2168073a7af4b3f81f5123a66a4ad91ca93e7d4f52bf01c",
+    "battleship/context_bot.py": "0884bdb35f32326a4d594998182df87899dff3b6a942268309daa2e85439aa27",
+    "battleship/core.py": "14239233c3a44d94ff4bac33b325153cb1f52613892fbd1b815e7fb9151c453a",
+    "battleship/optimize.py": "9fe03950ac185cb640d041b8034ece77745272e2b088cb1058f7bda267ccb152",
+    "battleship/protocol.py": "7a37ecf11d03fff146c93999cb69b0eea00521c993c32152125309c9d74e0a4e",
+    "battleship/webui.py": "c83f4b3f044c74a8e967bac466f417fa207b609f1f876643dd4d35b3ada6156f"
+  },
+  "policies_sha256": {
+    "policies/attack-only.json": "4c206af2958d8cd5a8fa33ea57c67ac9eb369dc2adbec365b2e961e8db247ec0",
+    "policies/champion-v2.json": "84fb9c8825001aaf6d8a875de8fc432ba181d51524181f0805a066b521887e80",
+    "policies/champion.json": "9a32112e88f5b22226a54989cd6b872a1f6c324ee65a529b9b0e8400a253f71f",
+    "policies/defended-density.json": "a501b50c75a0cd444fa2b4f7f692e4feab582bacfe2cfe084606da1d48333ef6",
+    "policies/fortress.json": "27b282fb259e8f6eec4c037acaa5d7aaa6782401d54dbeb45c091854475c0361"
+  },
+  "wall_seconds": 14.66487610002514
+}

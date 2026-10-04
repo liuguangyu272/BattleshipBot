@@ -16,10 +16,11 @@ ROOT = Path(__file__).resolve().parent.parent
 
 class Session:
     def __init__(self, mode="human", seed=None, fleet=None, opponent="champion"):
-        if mode not in ("human", "demo") or opponent not in ("champion", "admiral", "density", "hunt", "random"):
+        if mode not in ("human", "demo") or opponent not in ("fortress", "champion", "balanced", "admiral", "density", "hunt", "random"):
             raise ValueError("invalid mode or bot")
         seed = secrets.randbits(32) if seed is None else int(seed)
         self.mode = mode
+        self.opponent = opponent
         self.bots = [make_bot("champion"), make_bot(opponent)]
         rules = Rules()
         for i, bot in enumerate(self.bots):
@@ -33,7 +34,7 @@ class Session:
 
     def view(self):
         obs = self.game.observe(0)
-        return {"observation": obs, "mode": self.mode, "events": self.game.events[-12:],
+        return {"observation": obs, "mode": self.mode, "opponent": self.opponent, "events": self.game.events[-12:],
                 "last_ms": self.last_ms, "replay": self.saved,
                 "enemy_fleet": [list(s) for s in self.game.boards[1].fleet] if self.game.winner is not None else None}
 

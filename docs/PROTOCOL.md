@@ -1,5 +1,7 @@
 # 本地协议 v1 与比赛适配
 
+第二轮 Fortress 沿用同一协议：`python -m battleship protocol --bot fortress`。外部进程示例配置为 `examples/fortress-bot.json`，初始化硬预算5秒，单步1秒。旧 Champion 入口继续保留。
+
 ## 官方边界
 
 没有收到官方比赛协议、真实对手、资源限制。本地实现只支持 `local-classic-touching-v1`：允许相邻，命中不连射，击沉公开完整舰格。若正式比赛不公开击沉格子、采用 Salvo 或禁止相邻，需要修改观察与推断器，不能直接宣称兼容。

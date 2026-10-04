@@ -1,0 +1,18 @@
+{
+  "phase": "smoke",
+  "seed_start": 80000,
+  "seed_stop_exclusive": 80016,
+  "styles": [
+    "uniform",
+    "edge",
+    "cluster",
+    "spread"
+  ],
+  "workers": 4,
+  "seconds": 16.371398299990688,
+  "source_sha256": {
+    "battleship/context_bot.py": "0884bdb35f32326a4d594998182df87899dff3b6a942268309daa2e85439aa27",
+    "battleship/bots.py": "a54e94d2a16f6302d2168073a7af4b3f81f5123a66a4ad91ca93e7d4f52bf01c",
+    "experiments/context_search.py": "43452a555cf8e5de939b910c528fc06660a792cbf73ce899b8836c2e801efdf0"
+  }
+}

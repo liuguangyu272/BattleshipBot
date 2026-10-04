@@ -1,6 +1,19 @@
-# 深蓝 Champion · Battleship 实验室
+# 深蓝 Fortress · Battleship 实验室
 
 本项目是本地比赛环境与 Bot，**尚无官方比赛协议，不能把本地通过等同于正式比赛获胜**。
+
+## 本轮更新：推荐 Fortress
+
+新增 `fortress`：保留 Champion 的攻击算法，使用三种不同搜索偏好的攻击器筛选64套随机候选部署。独立600局原生部署比赛中，对旧 Champion 胜率 **72.33%**（300个种子、交换先后手，95%区间67.67%–77.00%）。完整条件、其它对手与失败探索见 [REVISION_V2.md](REVISION_V2.md)。旧 `champion` 和全部旧版成绩保留，不覆盖历史记录。
+
+```powershell
+python -m battleship demo --bot fortress --opponent champion --style native --seed 20261005
+python -m battleship protocol --bot fortress
+```
+
+浏览器默认对手为 Fortress。命令行显式加 `--bot fortress` 选择新版；旧命令行默认仍保留 Champion，便于复现旧结果。部署计算量更大，按本地5秒初始化预算验证，不能直接推定满足未提供的正式比赛限制。
+
+同时修复了刷新恢复对局、回放战报随进度更新、下载当前导入回放。另保留 `balanced` 均衡参数实验，但它没有全面超过原 Champion，不作为主要升级版。
 
 ## 最快开始
 
@@ -36,7 +49,7 @@ python -m battleship evaluate --bot policies/my-search/best.json --pairs 100 --w
 
 **没有证明攻击策略在均匀部署下超过 Density。** 自主部署的优势不能混同为所有棋盘上的攻击优势；完整报告保留不利条件和失败演示。对具有同样部署优化的 Density，另有 600 局实测胜率 67.83%。
 
-19 项自动测试通过。最终演示、所有最终实验条件的部分种子、外部接口与内部实现等价性都已实际重新运行核对。实测单步最大 43.67 ms，初始化/部署最大 695.41 ms；不同电脑负载会影响时间。
+原版19项自动测试通过；本轮新增测试见 `results/revision-v2/tests.txt` 与 DELIVERY.json。旧版最终演示、所有最终实验条件的部分种子、外部接口与内部实现等价性都已实际重新运行核对。以下原版测量的单步最大43.67ms、初始化/部署最大695.41ms，**不是新Fortress的部署耗时**；新版延迟见 REVISION_V2.md。
 
 ## 本地规则假设
 
@@ -84,3 +97,5 @@ python experiments/verify_delivery.py
 所有操作都在本项目内。服务只绑定 `127.0.0.1`，用 Ctrl+C 停止。没有云服务、API key 或付费依赖。
 
 `DELIVERY.json` 记录交付核验；`MANIFEST.json` 保存文件 SHA-256；`docs/PROGRESS.md` 保存开发与额度检查说明。没有确认其他工作均已保存，因此本次未执行关机。
+
+本轮复现检查：`python experiments/revision_report.py`；浏览器回归：`python experiments/ui_check_v2.py`（Windows Edge，无调试端口）。`python experiments/verify_delivery.py` 从 `baselines/v1-source.zip` 校验旧版本哈希，同时核对当前兼容路径仍复现旧版结果。

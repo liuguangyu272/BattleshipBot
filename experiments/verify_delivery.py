@@ -8,6 +8,7 @@ import hashlib
 import json
 import statistics
 import sys
+import zipfile
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from battleship.arena import play
 from battleship.core import verify_replay, save_json
@@ -17,15 +18,19 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def main():
     checks=[]
+    snapshot=ROOT/'baselines/v1-source.zip'
+    archive=zipfile.ZipFile(snapshot) if snapshot.exists() else None
     total=0
     worst_action=0
     worst_setup=0
     for folder in ['final-main','final-stress','final-defense','final-strong-defense','final-external']:
         summary=json.loads((ROOT/'results'/folder/'summary.json').read_text(encoding='utf-8'))
         for relative,expected in summary['source_sha256'].items():
-            assert hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()==expected,relative
+            content=archive.read(relative) if archive else (ROOT/relative).read_bytes()
+            assert hashlib.sha256(content).hexdigest()==expected,relative
         for relative,expected in summary['policies_sha256'].items():
-            assert hashlib.sha256((ROOT/relative).read_bytes()).hexdigest()==expected,relative
+            content=archive.read(relative) if archive else (ROOT/relative).read_bytes()
+            assert hashlib.sha256(content).hexdigest()==expected,relative
         for entry in summary['results']:
             name=f"{Path(entry['opponent'].removeprefix('exec:')).stem}-{entry['style']}.json"
             rows=json.loads((ROOT/'results'/folder/name).read_text(encoding='utf-8'))
@@ -42,7 +47,7 @@ def main():
                 for key in ['winner','shots','plies','faults']:
                     assert current[key]==original[key],(folder,key,original['seed'])
                 verify_replay(replay)
-        checks.append(folder+': counts, hashes, faults, first two seed clusters reproduced')
+        checks.append(folder+': counts, frozen v1 hashes, faults, first two seed clusters reproduced with current code')
     demo=json.loads((ROOT/'replays/final-demo.json').read_text(encoding='utf-8'))
     verify_replay(demo)
     current,replay=play(('champion','density'),20261004,style='native')
@@ -56,7 +61,9 @@ def main():
     checks.append('all 20 external matches agree with equivalent in-process champion')
     result={'ok':True,'total_final_duels':total,'illegal_actions':0,'timeouts':0,'faults':0,
             'max_action_ms_both_players':worst_action,'max_setup_ms_both_players':worst_setup,'checks':checks}
-    save_json(ROOT/'results/delivery-verification.json',result)
+    if archive:
+        archive.close()
+    save_json(ROOT/('results/revision-v2/legacy-verification.json' if archive else 'results/delivery-verification.json'),result)
     print(json.dumps(result,ensure_ascii=False,indent=2))
 
 

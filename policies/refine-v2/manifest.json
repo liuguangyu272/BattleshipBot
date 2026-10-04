@@ -1,0 +1,22 @@
+{
+  "development_seeds": [
+    60000,
+    60159
+  ],
+  "validation_seeds": [
+    70000,
+    70399
+  ],
+  "styles": [
+    "uniform",
+    "edge",
+    "cluster",
+    "spread"
+  ],
+  "objective": "mean delta vs baseline plus positive worst-style delta",
+  "selected_trial": 8,
+  "final_seeds_reserved": [
+    1600000,
+    1699999
+  ]
+}

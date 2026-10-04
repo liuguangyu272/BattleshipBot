@@ -1,0 +1,489 @@
+{
+  "schema": 1,
+  "visibility": "REFEREE_FULL_STATE_POSTGAME_ONLY",
+  "rules": {
+    "size": 10,
+    "fleet": [
+      5,
+      4,
+      3,
+      3,
+      2
+    ],
+    "rule_id": "local-classic-touching-v1"
+  },
+  "first": 0,
+  "fleets": [
+    [
+      [
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      [
+        1,
+        11,
+        21,
+        31
+      ],
+      [
+        97,
+        98,
+        99
+      ],
+      [
+        23,
+        33,
+        43
+      ],
+      [
+        45,
+        46
+      ]
+    ],
+    [
+      [
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      [
+        14,
+        24,
+        34,
+        44
+      ],
+      [
+        2,
+        3,
+        4
+      ],
+      [
+        55,
+        56,
+        57
+      ],
+      [
+        30,
+        40
+      ]
+    ]
+  ],
+  "events": [
+    {
+      "ply": 0,
+      "player": 0,
+      "cell": 85,
+      "result": "miss"
+    },
+    {
+      "ply": 1,
+      "player": 1,
+      "cell": 50,
+      "result": "miss"
+    },
+    {
+      "ply": 2,
+      "player": 0,
+      "cell": 41,
+      "result": "miss"
+    },
+    {
+      "ply": 3,
+      "player": 1,
+      "cell": 18,
+      "result": "miss"
+    },
+    {
+      "ply": 4,
+      "player": 0,
+      "cell": 48,
+      "result": "miss"
+    },
+    {
+      "ply": 5,
+      "player": 1,
+      "cell": 30,
+      "result": "miss"
+    },
+    {
+      "ply": 6,
+      "player": 0,
+      "cell": 14,
+      "result": "hit"
+    },
+    {
+      "ply": 7,
+      "player": 1,
+      "cell": 14,
+      "result": "miss"
+    },
+    {
+      "ply": 8,
+      "player": 0,
+      "cell": 15,
+      "result": "miss"
+    },
+    {
+      "ply": 9,
+      "player": 1,
+      "cell": 26,
+      "result": "miss"
+    },
+    {
+      "ply": 10,
+      "player": 0,
+      "cell": 24,
+      "result": "hit"
+    },
+    {
+      "ply": 11,
+      "player": 1,
+      "cell": 93,
+      "result": "miss"
+    },
+    {
+      "ply": 12,
+      "player": 0,
+      "cell": 4,
+      "result": "hit"
+    },
+    {
+      "ply": 13,
+      "player": 1,
+      "cell": 98,
+      "result": "hit"
+    },
+    {
+      "ply": 14,
+      "player": 0,
+      "cell": 34,
+      "result": "hit"
+    },
+    {
+      "ply": 15,
+      "player": 1,
+      "cell": 42,
+      "result": "miss"
+    },
+    {
+      "ply": 16,
+      "player": 0,
+      "cell": 44,
+      "result": "sunk",
+      "sunk": [
+        14,
+        24,
+        34,
+        44
+      ],
+      "length": 4
+    },
+    {
+      "ply": 17,
+      "player": 1,
+      "cell": 97,
+      "result": "hit"
+    },
+    {
+      "ply": 18,
+      "player": 0,
+      "cell": 5,
+      "result": "miss"
+    },
+    {
+      "ply": 19,
+      "player": 1,
+      "cell": 82,
+      "result": "miss"
+    },
+    {
+      "ply": 20,
+      "player": 0,
+      "cell": 3,
+      "result": "hit"
+    },
+    {
+      "ply": 21,
+      "player": 1,
+      "cell": 3,
+      "result": "miss"
+    },
+    {
+      "ply": 22,
+      "player": 0,
+      "cell": 2,
+      "result": "sunk",
+      "sunk": [
+        2,
+        3,
+        4
+      ],
+      "length": 3
+    },
+    {
+      "ply": 23,
+      "player": 1,
+      "cell": 1,
+      "result": "hit"
+    },
+    {
+      "ply": 24,
+      "player": 0,
+      "cell": 71,
+      "result": "miss"
+    },
+    {
+      "ply": 25,
+      "player": 1,
+      "cell": 39,
+      "result": "hit"
+    },
+    {
+      "ply": 26,
+      "player": 0,
+      "cell": 78,
+      "result": "hit"
+    },
+    {
+      "ply": 27,
+      "player": 1,
+      "cell": 21,
+      "result": "hit"
+    },
+    {
+      "ply": 28,
+      "player": 0,
+      "cell": 88,
+      "result": "miss"
+    },
+    {
+      "ply": 29,
+      "player": 1,
+      "cell": 44,
+      "result": "miss"
+    },
+    {
+      "ply": 30,
+      "player": 0,
+      "cell": 77,
+      "result": "hit"
+    },
+    {
+      "ply": 31,
+      "player": 1,
+      "cell": 24,
+      "result": "miss"
+    },
+    {
+      "ply": 32,
+      "player": 0,
+      "cell": 76,
+      "result": "hit"
+    },
+    {
+      "ply": 33,
+      "player": 1,
+      "cell": 55,
+      "result": "miss"
+    },
+    {
+      "ply": 34,
+      "player": 0,
+      "cell": 75,
+      "result": "hit"
+    },
+    {
+      "ply": 35,
+      "player": 1,
+      "cell": 78,
+      "result": "miss"
+    },
+    {
+      "ply": 36,
+      "player": 0,
+      "cell": 79,
+      "result": "sunk",
+      "sunk": [
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "length": 5
+    },
+    {
+      "ply": 37,
+      "player": 1,
+      "cell": 37,
+      "result": "hit"
+    },
+    {
+      "ply": 38,
+      "player": 0,
+      "cell": 82,
+      "result": "miss"
+    },
+    {
+      "ply": 39,
+      "player": 1,
+      "cell": 83,
+      "result": "miss"
+    },
+    {
+      "ply": 40,
+      "player": 0,
+      "cell": 94,
+      "result": "miss"
+    },
+    {
+      "ply": 41,
+      "player": 1,
+      "cell": 47,
+      "result": "miss"
+    },
+    {
+      "ply": 42,
+      "player": 0,
+      "cell": 60,
+      "result": "miss"
+    },
+    {
+      "ply": 43,
+      "player": 1,
+      "cell": 67,
+      "result": "miss"
+    },
+    {
+      "ply": 44,
+      "player": 0,
+      "cell": 30,
+      "result": "hit"
+    },
+    {
+      "ply": 45,
+      "player": 1,
+      "cell": 49,
+      "result": "miss"
+    },
+    {
+      "ply": 46,
+      "player": 0,
+      "cell": 40,
+      "result": "sunk",
+      "sunk": [
+        30,
+        40
+      ],
+      "length": 2
+    },
+    {
+      "ply": 47,
+      "player": 1,
+      "cell": 6,
+      "result": "miss"
+    },
+    {
+      "ply": 48,
+      "player": 0,
+      "cell": 52,
+      "result": "miss"
+    },
+    {
+      "ply": 49,
+      "player": 1,
+      "cell": 36,
+      "result": "hit"
+    },
+    {
+      "ply": 50,
+      "player": 0,
+      "cell": 27,
+      "result": "miss"
+    },
+    {
+      "ply": 51,
+      "player": 1,
+      "cell": 4,
+      "result": "miss"
+    },
+    {
+      "ply": 52,
+      "player": 0,
+      "cell": 39,
+      "result": "miss"
+    },
+    {
+      "ply": 53,
+      "player": 1,
+      "cell": 65,
+      "result": "miss"
+    },
+    {
+      "ply": 54,
+      "player": 0,
+      "cell": 57,
+      "result": "hit"
+    },
+    {
+      "ply": 55,
+      "player": 1,
+      "cell": 62,
+      "result": "miss"
+    },
+    {
+      "ply": 56,
+      "player": 0,
+      "cell": 58,
+      "result": "miss"
+    },
+    {
+      "ply": 57,
+      "player": 1,
+      "cell": 34,
+      "result": "miss"
+    },
+    {
+      "ply": 58,
+      "player": 0,
+      "cell": 47,
+      "result": "miss"
+    },
+    {
+      "ply": 59,
+      "player": 1,
+      "cell": 95,
+      "result": "miss"
+    },
+    {
+      "ply": 60,
+      "player": 0,
+      "cell": 56,
+      "result": "hit"
+    },
+    {
+      "ply": 61,
+      "player": 1,
+      "cell": 80,
+      "result": "miss"
+    },
+    {
+      "ply": 62,
+      "player": 0,
+      "cell": 55,
+      "result": "sunk",
+      "sunk": [
+        55,
+        56,
+        57
+      ],
+      "length": 3
+    }
+  ],
+  "winner": 0
+}

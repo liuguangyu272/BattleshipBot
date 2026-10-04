@@ -1,0 +1,34 @@
+{
+  "kind": "context",
+  "policy": {
+    "version": 1,
+    "mode": "hybrid",
+    "samples": 256,
+    "hunt_power": 0,
+    "length_power": 5,
+    "target_power": 2,
+    "sink_bonus": 0,
+    "info_bonus": 0.0,
+    "parity_bonus": 0,
+    "edge_bias": 0.2,
+    "target_edge_scale": 1.0,
+    "target_bonus": 1,
+    "joint_mix": 0.5,
+    "exact_limit": 20000,
+    "endgame_limit": 6,
+    "defense_candidates": 12,
+    "defense_mode": "legacy",
+    "deployment": "mixed"
+  },
+  "context": {
+    "version": 1,
+    "mix": 1.0,
+    "temperature": 0.65,
+    "length_power": 0,
+    "uniform_floor": 0.1,
+    "edge_prior": 0.2,
+    "cluster_prior": 0.2,
+    "spread_prior": 0.1,
+    "cluster_power": 3.0
+  }
+}

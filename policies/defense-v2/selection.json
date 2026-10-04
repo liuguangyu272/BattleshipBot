@@ -1,0 +1,12 @@
+{
+  "selected": 3,
+  "validation_seeds": [
+    85000,
+    85199
+  ],
+  "selection": "maximize worst held-out attacker mean survival; setup <4000ms",
+  "final_seeds_reserved": [
+    1620000,
+    1620999
+  ]
+}

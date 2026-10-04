@@ -1,0 +1,7326 @@
+[
+  {
+    "trial": 0,
+    "policy": {
+      "version": 1,
+      "mode": "hybrid",
+      "samples": 256,
+      "hunt_power": 0,
+      "length_power": 5,
+      "target_power": 2,
+      "sink_bonus": 0,
+      "info_bonus": 0.0,
+      "parity_bonus": 0,
+      "edge_bias": 0.2,
+      "target_edge_scale": 1.0,
+      "target_bonus": 1,
+      "joint_mix": 0.5,
+      "exact_limit": 20000,
+      "endgame_limit": 6,
+      "defense_candidates": 12,
+      "defense_mode": "legacy",
+      "deployment": "mixed"
+    },
+    "mean_shots": {
+      "density": 50.77,
+      "champion": 45.8,
+      "balanced": 48.5
+    },
+    "max_placement_ms": 197.83369998913258,
+    "rows": [
+      {
+        "seed": 85000,
+        "placement_ms": 174.10379997454584,
+        "shots": {
+          "density": 36,
+          "champion": 53,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85001,
+        "placement_ms": 171.1922999820672,
+        "shots": {
+          "density": 53,
+          "champion": 50,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85002,
+        "placement_ms": 169.54460000852123,
+        "shots": {
+          "density": 46,
+          "champion": 38,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85003,
+        "placement_ms": 166.51629999978468,
+        "shots": {
+          "density": 51,
+          "champion": 45,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85004,
+        "placement_ms": 161.29939997335896,
+        "shots": {
+          "density": 53,
+          "champion": 26,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85005,
+        "placement_ms": 171.65299999760464,
+        "shots": {
+          "density": 44,
+          "champion": 47,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85006,
+        "placement_ms": 159.04080000473186,
+        "shots": {
+          "density": 55,
+          "champion": 48,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85007,
+        "placement_ms": 159.57310004159808,
+        "shots": {
+          "density": 49,
+          "champion": 38,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85008,
+        "placement_ms": 156.23369999229908,
+        "shots": {
+          "density": 54,
+          "champion": 52,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85009,
+        "placement_ms": 167.54720004973933,
+        "shots": {
+          "density": 56,
+          "champion": 37,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85010,
+        "placement_ms": 160.42799997376278,
+        "shots": {
+          "density": 56,
+          "champion": 46,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85011,
+        "placement_ms": 156.04269999312237,
+        "shots": {
+          "density": 55,
+          "champion": 36,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85012,
+        "placement_ms": 162.32699999818578,
+        "shots": {
+          "density": 63,
+          "champion": 40,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85013,
+        "placement_ms": 169.30070001399145,
+        "shots": {
+          "density": 60,
+          "champion": 44,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85014,
+        "placement_ms": 154.00359994964674,
+        "shots": {
+          "density": 60,
+          "champion": 27,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85015,
+        "placement_ms": 176.77600000752136,
+        "shots": {
+          "density": 55,
+          "champion": 47,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85016,
+        "placement_ms": 169.77949999272823,
+        "shots": {
+          "density": 46,
+          "champion": 52,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85017,
+        "placement_ms": 167.46579995378852,
+        "shots": {
+          "density": 67,
+          "champion": 61,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85018,
+        "placement_ms": 160.01940000569448,
+        "shots": {
+          "density": 36,
+          "champion": 45,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85019,
+        "placement_ms": 171.10380000667647,
+        "shots": {
+          "density": 48,
+          "champion": 45,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85020,
+        "placement_ms": 167.64660004992038,
+        "shots": {
+          "density": 44,
+          "champion": 50,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85021,
+        "placement_ms": 163.19019999355078,
+        "shots": {
+          "density": 51,
+          "champion": 58,
+          "balanced": 38
+        }
+      },
+      {
+        "seed": 85022,
+        "placement_ms": 152.68469997681677,
+        "shots": {
+          "density": 35,
+          "champion": 56,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85023,
+        "placement_ms": 171.45979998167604,
+        "shots": {
+          "density": 52,
+          "champion": 58,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85024,
+        "placement_ms": 166.06380004668608,
+        "shots": {
+          "density": 58,
+          "champion": 51,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85025,
+        "placement_ms": 166.31200001575053,
+        "shots": {
+          "density": 39,
+          "champion": 48,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85026,
+        "placement_ms": 168.56419999385253,
+        "shots": {
+          "density": 59,
+          "champion": 46,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85027,
+        "placement_ms": 162.33720001764596,
+        "shots": {
+          "density": 55,
+          "champion": 47,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85028,
+        "placement_ms": 168.20889996597543,
+        "shots": {
+          "density": 42,
+          "champion": 50,
+          "balanced": 35
+        }
+      },
+      {
+        "seed": 85029,
+        "placement_ms": 169.6465000277385,
+        "shots": {
+          "density": 55,
+          "champion": 39,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85030,
+        "placement_ms": 159.7988000139594,
+        "shots": {
+          "density": 56,
+          "champion": 42,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85031,
+        "placement_ms": 155.35660000750795,
+        "shots": {
+          "density": 53,
+          "champion": 49,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85032,
+        "placement_ms": 171.0573000018485,
+        "shots": {
+          "density": 66,
+          "champion": 51,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85033,
+        "placement_ms": 160.46630003256723,
+        "shots": {
+          "density": 61,
+          "champion": 52,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85034,
+        "placement_ms": 163.34919998189434,
+        "shots": {
+          "density": 49,
+          "champion": 50,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85035,
+        "placement_ms": 159.29829998640344,
+        "shots": {
+          "density": 50,
+          "champion": 45,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85036,
+        "placement_ms": 159.92770000593737,
+        "shots": {
+          "density": 71,
+          "champion": 64,
+          "balanced": 67
+        }
+      },
+      {
+        "seed": 85037,
+        "placement_ms": 164.40170002169907,
+        "shots": {
+          "density": 54,
+          "champion": 47,
+          "balanced": 30
+        }
+      },
+      {
+        "seed": 85038,
+        "placement_ms": 162.7915999852121,
+        "shots": {
+          "density": 61,
+          "champion": 50,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85039,
+        "placement_ms": 163.1148000014946,
+        "shots": {
+          "density": 60,
+          "champion": 47,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85040,
+        "placement_ms": 169.62350002722815,
+        "shots": {
+          "density": 52,
+          "champion": 52,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85041,
+        "placement_ms": 153.95750000607222,
+        "shots": {
+          "density": 38,
+          "champion": 38,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85042,
+        "placement_ms": 158.33880001446232,
+        "shots": {
+          "density": 49,
+          "champion": 33,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85043,
+        "placement_ms": 158.39439997216687,
+        "shots": {
+          "density": 33,
+          "champion": 44,
+          "balanced": 38
+        }
+      },
+      {
+        "seed": 85044,
+        "placement_ms": 175.51430000457913,
+        "shots": {
+          "density": 55,
+          "champion": 54,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85045,
+        "placement_ms": 165.09109997423366,
+        "shots": {
+          "density": 49,
+          "champion": 46,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85046,
+        "placement_ms": 156.4645999460481,
+        "shots": {
+          "density": 53,
+          "champion": 40,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85047,
+        "placement_ms": 176.87010002555326,
+        "shots": {
+          "density": 57,
+          "champion": 52,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85048,
+        "placement_ms": 166.13550001056865,
+        "shots": {
+          "density": 49,
+          "champion": 40,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85049,
+        "placement_ms": 177.77780001051724,
+        "shots": {
+          "density": 45,
+          "champion": 65,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85050,
+        "placement_ms": 164.52430002391338,
+        "shots": {
+          "density": 49,
+          "champion": 36,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85051,
+        "placement_ms": 168.85400004684925,
+        "shots": {
+          "density": 56,
+          "champion": 39,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85052,
+        "placement_ms": 165.00149999046698,
+        "shots": {
+          "density": 43,
+          "champion": 37,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85053,
+        "placement_ms": 168.00289996899664,
+        "shots": {
+          "density": 44,
+          "champion": 57,
+          "balanced": 29
+        }
+      },
+      {
+        "seed": 85054,
+        "placement_ms": 163.41039998224005,
+        "shots": {
+          "density": 37,
+          "champion": 51,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85055,
+        "placement_ms": 162.1127999969758,
+        "shots": {
+          "density": 39,
+          "champion": 43,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85056,
+        "placement_ms": 177.98869998659939,
+        "shots": {
+          "density": 69,
+          "champion": 38,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85057,
+        "placement_ms": 168.3422999922186,
+        "shots": {
+          "density": 62,
+          "champion": 43,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85058,
+        "placement_ms": 171.82989994762465,
+        "shots": {
+          "density": 62,
+          "champion": 35,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85059,
+        "placement_ms": 170.06059997947887,
+        "shots": {
+          "density": 47,
+          "champion": 50,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85060,
+        "placement_ms": 174.99359999783337,
+        "shots": {
+          "density": 46,
+          "champion": 38,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85061,
+        "placement_ms": 167.33560001011938,
+        "shots": {
+          "density": 50,
+          "champion": 38,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85062,
+        "placement_ms": 161.60940000554547,
+        "shots": {
+          "density": 59,
+          "champion": 46,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85063,
+        "placement_ms": 162.65650000423193,
+        "shots": {
+          "density": 63,
+          "champion": 34,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85064,
+        "placement_ms": 167.19219996593893,
+        "shots": {
+          "density": 49,
+          "champion": 43,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85065,
+        "placement_ms": 163.250399986282,
+        "shots": {
+          "density": 57,
+          "champion": 50,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85066,
+        "placement_ms": 167.17949998565018,
+        "shots": {
+          "density": 35,
+          "champion": 48,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85067,
+        "placement_ms": 171.35530000086874,
+        "shots": {
+          "density": 48,
+          "champion": 39,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85068,
+        "placement_ms": 172.65999998198822,
+        "shots": {
+          "density": 39,
+          "champion": 45,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85069,
+        "placement_ms": 163.23439998086542,
+        "shots": {
+          "density": 56,
+          "champion": 35,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85070,
+        "placement_ms": 165.93719995580614,
+        "shots": {
+          "density": 67,
+          "champion": 51,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85071,
+        "placement_ms": 163.46769995288923,
+        "shots": {
+          "density": 44,
+          "champion": 51,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85072,
+        "placement_ms": 174.9402999994345,
+        "shots": {
+          "density": 52,
+          "champion": 48,
+          "balanced": 24
+        }
+      },
+      {
+        "seed": 85073,
+        "placement_ms": 170.35369999939576,
+        "shots": {
+          "density": 41,
+          "champion": 46,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85074,
+        "placement_ms": 167.99849999370053,
+        "shots": {
+          "density": 48,
+          "champion": 49,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85075,
+        "placement_ms": 172.72029997548088,
+        "shots": {
+          "density": 51,
+          "champion": 53,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85076,
+        "placement_ms": 173.13980002654716,
+        "shots": {
+          "density": 43,
+          "champion": 47,
+          "balanced": 38
+        }
+      },
+      {
+        "seed": 85077,
+        "placement_ms": 173.66349999792874,
+        "shots": {
+          "density": 39,
+          "champion": 42,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85078,
+        "placement_ms": 163.58920000493526,
+        "shots": {
+          "density": 39,
+          "champion": 43,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85079,
+        "placement_ms": 162.80289995484054,
+        "shots": {
+          "density": 53,
+          "champion": 49,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85080,
+        "placement_ms": 168.98619994753972,
+        "shots": {
+          "density": 65,
+          "champion": 47,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85081,
+        "placement_ms": 167.84579999512061,
+        "shots": {
+          "density": 60,
+          "champion": 53,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85082,
+        "placement_ms": 168.66309999022633,
+        "shots": {
+          "density": 71,
+          "champion": 47,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85083,
+        "placement_ms": 160.30300001148134,
+        "shots": {
+          "density": 48,
+          "champion": 41,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85084,
+        "placement_ms": 165.10389995528385,
+        "shots": {
+          "density": 60,
+          "champion": 43,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85085,
+        "placement_ms": 166.33709997404367,
+        "shots": {
+          "density": 48,
+          "champion": 35,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85086,
+        "placement_ms": 159.23190000467002,
+        "shots": {
+          "density": 49,
+          "champion": 51,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85087,
+        "placement_ms": 167.75789996609092,
+        "shots": {
+          "density": 51,
+          "champion": 50,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85088,
+        "placement_ms": 166.34840000187978,
+        "shots": {
+          "density": 51,
+          "champion": 56,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85089,
+        "placement_ms": 168.98570000194013,
+        "shots": {
+          "density": 61,
+          "champion": 42,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85090,
+        "placement_ms": 172.45499999262393,
+        "shots": {
+          "density": 45,
+          "champion": 40,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85091,
+        "placement_ms": 167.11109998868778,
+        "shots": {
+          "density": 37,
+          "champion": 61,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85092,
+        "placement_ms": 167.40450001088902,
+        "shots": {
+          "density": 55,
+          "champion": 30,
+          "balanced": 33
+        }
+      },
+      {
+        "seed": 85093,
+        "placement_ms": 164.50969997094944,
+        "shots": {
+          "density": 48,
+          "champion": 46,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85094,
+        "placement_ms": 171.855200023856,
+        "shots": {
+          "density": 64,
+          "champion": 39,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85095,
+        "placement_ms": 157.460100017488,
+        "shots": {
+          "density": 54,
+          "champion": 54,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85096,
+        "placement_ms": 161.1146999639459,
+        "shots": {
+          "density": 52,
+          "champion": 39,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85097,
+        "placement_ms": 167.85659996094182,
+        "shots": {
+          "density": 54,
+          "champion": 49,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85098,
+        "placement_ms": 159.18560000136495,
+        "shots": {
+          "density": 41,
+          "champion": 31,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85099,
+        "placement_ms": 169.12049998063594,
+        "shots": {
+          "density": 36,
+          "champion": 39,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85100,
+        "placement_ms": 180.5993000161834,
+        "shots": {
+          "density": 61,
+          "champion": 45,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85101,
+        "placement_ms": 165.32179998466745,
+        "shots": {
+          "density": 48,
+          "champion": 47,
+          "balanced": 32
+        }
+      },
+      {
+        "seed": 85102,
+        "placement_ms": 171.55050003202632,
+        "shots": {
+          "density": 52,
+          "champion": 40,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85103,
+        "placement_ms": 175.81679997965693,
+        "shots": {
+          "density": 54,
+          "champion": 51,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85104,
+        "placement_ms": 164.6389999659732,
+        "shots": {
+          "density": 52,
+          "champion": 47,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85105,
+        "placement_ms": 173.03960002027452,
+        "shots": {
+          "density": 58,
+          "champion": 62,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85106,
+        "placement_ms": 170.29489995911717,
+        "shots": {
+          "density": 53,
+          "champion": 53,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85107,
+        "placement_ms": 181.96489999536425,
+        "shots": {
+          "density": 55,
+          "champion": 36,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85108,
+        "placement_ms": 167.25170001154765,
+        "shots": {
+          "density": 35,
+          "champion": 60,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85109,
+        "placement_ms": 165.96479999134317,
+        "shots": {
+          "density": 44,
+          "champion": 52,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85110,
+        "placement_ms": 177.13269998785108,
+        "shots": {
+          "density": 42,
+          "champion": 34,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85111,
+        "placement_ms": 169.68670004280284,
+        "shots": {
+          "density": 47,
+          "champion": 52,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85112,
+        "placement_ms": 175.56380003225058,
+        "shots": {
+          "density": 66,
+          "champion": 36,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85113,
+        "placement_ms": 177.5653999648057,
+        "shots": {
+          "density": 66,
+          "champion": 48,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85114,
+        "placement_ms": 180.2675000508316,
+        "shots": {
+          "density": 61,
+          "champion": 44,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85115,
+        "placement_ms": 190.68100000731647,
+        "shots": {
+          "density": 70,
+          "champion": 55,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85116,
+        "placement_ms": 174.3889999925159,
+        "shots": {
+          "density": 47,
+          "champion": 53,
+          "balanced": 32
+        }
+      },
+      {
+        "seed": 85117,
+        "placement_ms": 167.7256000111811,
+        "shots": {
+          "density": 30,
+          "champion": 39,
+          "balanced": 35
+        }
+      },
+      {
+        "seed": 85118,
+        "placement_ms": 166.71000001952052,
+        "shots": {
+          "density": 59,
+          "champion": 41,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85119,
+        "placement_ms": 172.49970004195347,
+        "shots": {
+          "density": 39,
+          "champion": 33,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85120,
+        "placement_ms": 163.4353999979794,
+        "shots": {
+          "density": 62,
+          "champion": 63,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85121,
+        "placement_ms": 171.98460001964122,
+        "shots": {
+          "density": 50,
+          "champion": 55,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85122,
+        "placement_ms": 180.34720001742244,
+        "shots": {
+          "density": 67,
+          "champion": 54,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85123,
+        "placement_ms": 185.11389999184757,
+        "shots": {
+          "density": 53,
+          "champion": 42,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85124,
+        "placement_ms": 179.52920001698658,
+        "shots": {
+          "density": 55,
+          "champion": 44,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85125,
+        "placement_ms": 180.93049997696653,
+        "shots": {
+          "density": 47,
+          "champion": 35,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85126,
+        "placement_ms": 165.21469998406246,
+        "shots": {
+          "density": 45,
+          "champion": 59,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85127,
+        "placement_ms": 156.63129999302328,
+        "shots": {
+          "density": 55,
+          "champion": 45,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85128,
+        "placement_ms": 175.07860000478104,
+        "shots": {
+          "density": 49,
+          "champion": 43,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85129,
+        "placement_ms": 169.37090002465993,
+        "shots": {
+          "density": 43,
+          "champion": 54,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85130,
+        "placement_ms": 173.18220000015572,
+        "shots": {
+          "density": 53,
+          "champion": 48,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85131,
+        "placement_ms": 183.7198999710381,
+        "shots": {
+          "density": 63,
+          "champion": 53,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85132,
+        "placement_ms": 172.67329996684566,
+        "shots": {
+          "density": 41,
+          "champion": 49,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85133,
+        "placement_ms": 179.1425999836065,
+        "shots": {
+          "density": 33,
+          "champion": 58,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85134,
+        "placement_ms": 168.29079994931817,
+        "shots": {
+          "density": 48,
+          "champion": 38,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85135,
+        "placement_ms": 166.77310003433377,
+        "shots": {
+          "density": 63,
+          "champion": 57,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85136,
+        "placement_ms": 170.03539996221662,
+        "shots": {
+          "density": 57,
+          "champion": 45,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85137,
+        "placement_ms": 180.8084999793209,
+        "shots": {
+          "density": 57,
+          "champion": 47,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85138,
+        "placement_ms": 176.4545000041835,
+        "shots": {
+          "density": 31,
+          "champion": 31,
+          "balanced": 32
+        }
+      },
+      {
+        "seed": 85139,
+        "placement_ms": 182.9219000064768,
+        "shots": {
+          "density": 58,
+          "champion": 51,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85140,
+        "placement_ms": 173.86789998272434,
+        "shots": {
+          "density": 46,
+          "champion": 51,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85141,
+        "placement_ms": 160.03260004799813,
+        "shots": {
+          "density": 31,
+          "champion": 51,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85142,
+        "placement_ms": 172.05860000103712,
+        "shots": {
+          "density": 60,
+          "champion": 44,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85143,
+        "placement_ms": 160.35049996571615,
+        "shots": {
+          "density": 53,
+          "champion": 44,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85144,
+        "placement_ms": 169.28510001162067,
+        "shots": {
+          "density": 41,
+          "champion": 47,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85145,
+        "placement_ms": 159.29209999740124,
+        "shots": {
+          "density": 47,
+          "champion": 52,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85146,
+        "placement_ms": 185.98880001809448,
+        "shots": {
+          "density": 51,
+          "champion": 42,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85147,
+        "placement_ms": 180.12669996824116,
+        "shots": {
+          "density": 45,
+          "champion": 46,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85148,
+        "placement_ms": 166.59079998498783,
+        "shots": {
+          "density": 40,
+          "champion": 47,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85149,
+        "placement_ms": 163.4663000004366,
+        "shots": {
+          "density": 36,
+          "champion": 41,
+          "balanced": 35
+        }
+      },
+      {
+        "seed": 85150,
+        "placement_ms": 175.79909996129572,
+        "shots": {
+          "density": 61,
+          "champion": 62,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85151,
+        "placement_ms": 175.473699986469,
+        "shots": {
+          "density": 50,
+          "champion": 42,
+          "balanced": 35
+        }
+      },
+      {
+        "seed": 85152,
+        "placement_ms": 162.83779998775572,
+        "shots": {
+          "density": 56,
+          "champion": 47,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85153,
+        "placement_ms": 176.36969999875873,
+        "shots": {
+          "density": 56,
+          "champion": 33,
+          "balanced": 32
+        }
+      },
+      {
+        "seed": 85154,
+        "placement_ms": 174.04630000237375,
+        "shots": {
+          "density": 65,
+          "champion": 65,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85155,
+        "placement_ms": 178.80589998094365,
+        "shots": {
+          "density": 51,
+          "champion": 40,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85156,
+        "placement_ms": 182.31469998136163,
+        "shots": {
+          "density": 35,
+          "champion": 44,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85157,
+        "placement_ms": 187.42129998281598,
+        "shots": {
+          "density": 63,
+          "champion": 37,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85158,
+        "placement_ms": 185.46409998089075,
+        "shots": {
+          "density": 27,
+          "champion": 45,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85159,
+        "placement_ms": 176.50949995731935,
+        "shots": {
+          "density": 56,
+          "champion": 41,
+          "balanced": 33
+        }
+      },
+      {
+        "seed": 85160,
+        "placement_ms": 179.30259997956455,
+        "shots": {
+          "density": 41,
+          "champion": 39,
+          "balanced": 37
+        }
+      },
+      {
+        "seed": 85161,
+        "placement_ms": 164.44530000444502,
+        "shots": {
+          "density": 52,
+          "champion": 58,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85162,
+        "placement_ms": 188.68570000631735,
+        "shots": {
+          "density": 48,
+          "champion": 39,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85163,
+        "placement_ms": 181.75599997630343,
+        "shots": {
+          "density": 62,
+          "champion": 32,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85164,
+        "placement_ms": 178.62029996467754,
+        "shots": {
+          "density": 45,
+          "champion": 40,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85165,
+        "placement_ms": 169.36190001433715,
+        "shots": {
+          "density": 63,
+          "champion": 56,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85166,
+        "placement_ms": 183.49129997659475,
+        "shots": {
+          "density": 50,
+          "champion": 31,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85167,
+        "placement_ms": 187.2569000115618,
+        "shots": {
+          "density": 31,
+          "champion": 32,
+          "balanced": 30
+        }
+      },
+      {
+        "seed": 85168,
+        "placement_ms": 174.67689997283742,
+        "shots": {
+          "density": 48,
+          "champion": 47,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85169,
+        "placement_ms": 186.11889996100217,
+        "shots": {
+          "density": 48,
+          "champion": 42,
+          "balanced": 33
+        }
+      },
+      {
+        "seed": 85170,
+        "placement_ms": 186.20729999383911,
+        "shots": {
+          "density": 43,
+          "champion": 50,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85171,
+        "placement_ms": 186.21869996422902,
+        "shots": {
+          "density": 58,
+          "champion": 54,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85172,
+        "placement_ms": 178.7198999663815,
+        "shots": {
+          "density": 54,
+          "champion": 48,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85173,
+        "placement_ms": 172.391600033734,
+        "shots": {
+          "density": 59,
+          "champion": 28,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85174,
+        "placement_ms": 175.26709998492151,
+        "shots": {
+          "density": 43,
+          "champion": 49,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85175,
+        "placement_ms": 188.2130000158213,
+        "shots": {
+          "density": 54,
+          "champion": 57,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85176,
+        "placement_ms": 175.42559996945783,
+        "shots": {
+          "density": 50,
+          "champion": 42,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85177,
+        "placement_ms": 172.22419998142868,
+        "shots": {
+          "density": 64,
+          "champion": 51,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85178,
+        "placement_ms": 178.67110000224784,
+        "shots": {
+          "density": 47,
+          "champion": 47,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85179,
+        "placement_ms": 181.01190001470968,
+        "shots": {
+          "density": 48,
+          "champion": 42,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85180,
+        "placement_ms": 161.07180004473776,
+        "shots": {
+          "density": 39,
+          "champion": 54,
+          "balanced": 29
+        }
+      },
+      {
+        "seed": 85181,
+        "placement_ms": 172.12679999647662,
+        "shots": {
+          "density": 67,
+          "champion": 64,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85182,
+        "placement_ms": 181.14000000059605,
+        "shots": {
+          "density": 50,
+          "champion": 62,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85183,
+        "placement_ms": 172.0420999918133,
+        "shots": {
+          "density": 39,
+          "champion": 56,
+          "balanced": 31
+        }
+      },
+      {
+        "seed": 85184,
+        "placement_ms": 164.5091000245884,
+        "shots": {
+          "density": 52,
+          "champion": 47,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85185,
+        "placement_ms": 171.1784999934025,
+        "shots": {
+          "density": 39,
+          "champion": 51,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85186,
+        "placement_ms": 172.6384999928996,
+        "shots": {
+          "density": 43,
+          "champion": 43,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85187,
+        "placement_ms": 180.78329996205866,
+        "shots": {
+          "density": 57,
+          "champion": 53,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85188,
+        "placement_ms": 177.2664000163786,
+        "shots": {
+          "density": 37,
+          "champion": 42,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85189,
+        "placement_ms": 180.70320005062968,
+        "shots": {
+          "density": 59,
+          "champion": 33,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85190,
+        "placement_ms": 168.47139998571947,
+        "shots": {
+          "density": 62,
+          "champion": 27,
+          "balanced": 67
+        }
+      },
+      {
+        "seed": 85191,
+        "placement_ms": 183.70619998313487,
+        "shots": {
+          "density": 52,
+          "champion": 52,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85192,
+        "placement_ms": 177.39690002053976,
+        "shots": {
+          "density": 46,
+          "champion": 49,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85193,
+        "placement_ms": 174.56890002358705,
+        "shots": {
+          "density": 36,
+          "champion": 49,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85194,
+        "placement_ms": 171.13079997943714,
+        "shots": {
+          "density": 61,
+          "champion": 31,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85195,
+        "placement_ms": 170.64450000179932,
+        "shots": {
+          "density": 51,
+          "champion": 33,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85196,
+        "placement_ms": 173.00549999345094,
+        "shots": {
+          "density": 30,
+          "champion": 35,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85197,
+        "placement_ms": 197.83369998913258,
+        "shots": {
+          "density": 50,
+          "champion": 35,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85198,
+        "placement_ms": 178.06539998855442,
+        "shots": {
+          "density": 57,
+          "champion": 45,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85199,
+        "placement_ms": 175.22039997857064,
+        "shots": {
+          "density": 49,
+          "champion": 37,
+          "balanced": 42
+        }
+      }
+    ]
+  },
+  {
+    "trial": 1,
+    "policy": {
+      "version": 1,
+      "mode": "hybrid",
+      "samples": 256,
+      "hunt_power": 0,
+      "length_power": 5,
+      "target_power": 2,
+      "sink_bonus": 0,
+      "info_bonus": 0.0,
+      "parity_bonus": 0,
+      "edge_bias": 0.2,
+      "target_edge_scale": 1.0,
+      "target_bonus": 1,
+      "joint_mix": 0.5,
+      "exact_limit": 20000,
+      "endgame_limit": 6,
+      "defense_candidates": 12,
+      "defense_mode": "robust",
+      "deployment": "mixed"
+    },
+    "mean_shots": {
+      "density": 50.28,
+      "champion": 48.805,
+      "balanced": 49.055
+    },
+    "max_placement_ms": 288.4143000119366,
+    "rows": [
+      {
+        "seed": 85000,
+        "placement_ms": 264.1723999986425,
+        "shots": {
+          "density": 53,
+          "champion": 38,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85001,
+        "placement_ms": 259.4474999932572,
+        "shots": {
+          "density": 63,
+          "champion": 55,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85002,
+        "placement_ms": 249.89609996555373,
+        "shots": {
+          "density": 53,
+          "champion": 47,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85003,
+        "placement_ms": 255.6233000359498,
+        "shots": {
+          "density": 68,
+          "champion": 33,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85004,
+        "placement_ms": 253.70159995509312,
+        "shots": {
+          "density": 54,
+          "champion": 51,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85005,
+        "placement_ms": 258.11709999106824,
+        "shots": {
+          "density": 53,
+          "champion": 54,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85006,
+        "placement_ms": 249.92189998738468,
+        "shots": {
+          "density": 44,
+          "champion": 45,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85007,
+        "placement_ms": 259.31420002598315,
+        "shots": {
+          "density": 48,
+          "champion": 63,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85008,
+        "placement_ms": 241.35349999414757,
+        "shots": {
+          "density": 45,
+          "champion": 43,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85009,
+        "placement_ms": 250.77179999789223,
+        "shots": {
+          "density": 28,
+          "champion": 49,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85010,
+        "placement_ms": 262.1262999600731,
+        "shots": {
+          "density": 56,
+          "champion": 46,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85011,
+        "placement_ms": 248.8042000331916,
+        "shots": {
+          "density": 55,
+          "champion": 36,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85012,
+        "placement_ms": 244.5886000059545,
+        "shots": {
+          "density": 56,
+          "champion": 57,
+          "balanced": 31
+        }
+      },
+      {
+        "seed": 85013,
+        "placement_ms": 252.75940005667508,
+        "shots": {
+          "density": 48,
+          "champion": 50,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85014,
+        "placement_ms": 244.1794999758713,
+        "shots": {
+          "density": 46,
+          "champion": 48,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85015,
+        "placement_ms": 248.78710001939908,
+        "shots": {
+          "density": 40,
+          "champion": 43,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85016,
+        "placement_ms": 243.13450005138293,
+        "shots": {
+          "density": 38,
+          "champion": 61,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85017,
+        "placement_ms": 264.1707000439055,
+        "shots": {
+          "density": 67,
+          "champion": 61,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85018,
+        "placement_ms": 245.04549999255687,
+        "shots": {
+          "density": 53,
+          "champion": 52,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85019,
+        "placement_ms": 261.32710004458204,
+        "shots": {
+          "density": 36,
+          "champion": 64,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85020,
+        "placement_ms": 248.09239996830001,
+        "shots": {
+          "density": 59,
+          "champion": 46,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85021,
+        "placement_ms": 237.93440003646538,
+        "shots": {
+          "density": 39,
+          "champion": 50,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85022,
+        "placement_ms": 243.24499996146187,
+        "shots": {
+          "density": 35,
+          "champion": 43,
+          "balanced": 38
+        }
+      },
+      {
+        "seed": 85023,
+        "placement_ms": 245.27040001703426,
+        "shots": {
+          "density": 58,
+          "champion": 46,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85024,
+        "placement_ms": 256.4691000152379,
+        "shots": {
+          "density": 54,
+          "champion": 47,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85025,
+        "placement_ms": 248.28230001730844,
+        "shots": {
+          "density": 39,
+          "champion": 49,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85026,
+        "placement_ms": 246.46070000017062,
+        "shots": {
+          "density": 59,
+          "champion": 46,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85027,
+        "placement_ms": 257.0175000000745,
+        "shots": {
+          "density": 43,
+          "champion": 50,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85028,
+        "placement_ms": 261.5260999882594,
+        "shots": {
+          "density": 70,
+          "champion": 30,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85029,
+        "placement_ms": 249.27649996243417,
+        "shots": {
+          "density": 42,
+          "champion": 40,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85030,
+        "placement_ms": 254.02560003567487,
+        "shots": {
+          "density": 56,
+          "champion": 42,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85031,
+        "placement_ms": 251.84760004049167,
+        "shots": {
+          "density": 40,
+          "champion": 59,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85032,
+        "placement_ms": 254.59150003734976,
+        "shots": {
+          "density": 49,
+          "champion": 57,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85033,
+        "placement_ms": 245.04480004543439,
+        "shots": {
+          "density": 61,
+          "champion": 52,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85034,
+        "placement_ms": 253.6419000243768,
+        "shots": {
+          "density": 56,
+          "champion": 42,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85035,
+        "placement_ms": 250.91179995797575,
+        "shots": {
+          "density": 49,
+          "champion": 53,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85036,
+        "placement_ms": 256.6777999745682,
+        "shots": {
+          "density": 71,
+          "champion": 64,
+          "balanced": 67
+        }
+      },
+      {
+        "seed": 85037,
+        "placement_ms": 250.05710002733395,
+        "shots": {
+          "density": 53,
+          "champion": 40,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85038,
+        "placement_ms": 244.85449999338016,
+        "shots": {
+          "density": 53,
+          "champion": 47,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85039,
+        "placement_ms": 263.16059997770935,
+        "shots": {
+          "density": 64,
+          "champion": 53,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85040,
+        "placement_ms": 257.32470001094043,
+        "shots": {
+          "density": 36,
+          "champion": 29,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85041,
+        "placement_ms": 253.9141000015661,
+        "shots": {
+          "density": 45,
+          "champion": 45,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85042,
+        "placement_ms": 255.4612999665551,
+        "shots": {
+          "density": 53,
+          "champion": 43,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85043,
+        "placement_ms": 262.9039000021294,
+        "shots": {
+          "density": 58,
+          "champion": 58,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85044,
+        "placement_ms": 261.11459999810904,
+        "shots": {
+          "density": 58,
+          "champion": 39,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85045,
+        "placement_ms": 250.5337999900803,
+        "shots": {
+          "density": 49,
+          "champion": 46,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85046,
+        "placement_ms": 252.24890001118183,
+        "shots": {
+          "density": 51,
+          "champion": 37,
+          "balanced": 37
+        }
+      },
+      {
+        "seed": 85047,
+        "placement_ms": 263.33420001901686,
+        "shots": {
+          "density": 57,
+          "champion": 52,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85048,
+        "placement_ms": 243.38800000259653,
+        "shots": {
+          "density": 49,
+          "champion": 56,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85049,
+        "placement_ms": 254.48050000704825,
+        "shots": {
+          "density": 60,
+          "champion": 51,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85050,
+        "placement_ms": 246.79559998912737,
+        "shots": {
+          "density": 37,
+          "champion": 41,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85051,
+        "placement_ms": 255.63620001776144,
+        "shots": {
+          "density": 55,
+          "champion": 51,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85052,
+        "placement_ms": 249.25190000794828,
+        "shots": {
+          "density": 51,
+          "champion": 37,
+          "balanced": 69
+        }
+      },
+      {
+        "seed": 85053,
+        "placement_ms": 256.80620002094656,
+        "shots": {
+          "density": 52,
+          "champion": 47,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85054,
+        "placement_ms": 253.51429998409003,
+        "shots": {
+          "density": 41,
+          "champion": 55,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85055,
+        "placement_ms": 248.59469995135441,
+        "shots": {
+          "density": 47,
+          "champion": 60,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85056,
+        "placement_ms": 254.74490004125983,
+        "shots": {
+          "density": 42,
+          "champion": 45,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85057,
+        "placement_ms": 247.19680001726374,
+        "shots": {
+          "density": 58,
+          "champion": 43,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85058,
+        "placement_ms": 246.81270000291988,
+        "shots": {
+          "density": 62,
+          "champion": 35,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85059,
+        "placement_ms": 247.83429998205975,
+        "shots": {
+          "density": 60,
+          "champion": 55,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85060,
+        "placement_ms": 264.06380004482344,
+        "shots": {
+          "density": 51,
+          "champion": 52,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85061,
+        "placement_ms": 250.0737000373192,
+        "shots": {
+          "density": 58,
+          "champion": 51,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85062,
+        "placement_ms": 255.32870000461116,
+        "shots": {
+          "density": 48,
+          "champion": 40,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85063,
+        "placement_ms": 260.1794999791309,
+        "shots": {
+          "density": 39,
+          "champion": 57,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85064,
+        "placement_ms": 258.2583999610506,
+        "shots": {
+          "density": 55,
+          "champion": 39,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85065,
+        "placement_ms": 245.63570000464097,
+        "shots": {
+          "density": 52,
+          "champion": 59,
+          "balanced": 31
+        }
+      },
+      {
+        "seed": 85066,
+        "placement_ms": 262.0456999866292,
+        "shots": {
+          "density": 46,
+          "champion": 38,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85067,
+        "placement_ms": 244.81030000606552,
+        "shots": {
+          "density": 39,
+          "champion": 44,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85068,
+        "placement_ms": 244.55589998979121,
+        "shots": {
+          "density": 47,
+          "champion": 46,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85069,
+        "placement_ms": 264.7216999903321,
+        "shots": {
+          "density": 50,
+          "champion": 56,
+          "balanced": 35
+        }
+      },
+      {
+        "seed": 85070,
+        "placement_ms": 254.20859997393563,
+        "shots": {
+          "density": 49,
+          "champion": 51,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85071,
+        "placement_ms": 251.86840002425015,
+        "shots": {
+          "density": 49,
+          "champion": 40,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85072,
+        "placement_ms": 258.02919996203855,
+        "shots": {
+          "density": 54,
+          "champion": 47,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85073,
+        "placement_ms": 267.92610000120476,
+        "shots": {
+          "density": 33,
+          "champion": 49,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85074,
+        "placement_ms": 246.166400029324,
+        "shots": {
+          "density": 39,
+          "champion": 51,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85075,
+        "placement_ms": 250.92230003792793,
+        "shots": {
+          "density": 51,
+          "champion": 53,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85076,
+        "placement_ms": 243.3976999600418,
+        "shots": {
+          "density": 47,
+          "champion": 32,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85077,
+        "placement_ms": 269.2304000374861,
+        "shots": {
+          "density": 59,
+          "champion": 32,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85078,
+        "placement_ms": 255.09019999299198,
+        "shots": {
+          "density": 55,
+          "champion": 55,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85079,
+        "placement_ms": 254.18589997570962,
+        "shots": {
+          "density": 36,
+          "champion": 64,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85080,
+        "placement_ms": 265.3380000265315,
+        "shots": {
+          "density": 63,
+          "champion": 55,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85081,
+        "placement_ms": 257.1699999971315,
+        "shots": {
+          "density": 60,
+          "champion": 53,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85082,
+        "placement_ms": 265.5600000289269,
+        "shots": {
+          "density": 37,
+          "champion": 60,
+          "balanced": 67
+        }
+      },
+      {
+        "seed": 85083,
+        "placement_ms": 244.74759999429807,
+        "shots": {
+          "density": 48,
+          "champion": 41,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85084,
+        "placement_ms": 256.6227000206709,
+        "shots": {
+          "density": 46,
+          "champion": 49,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85085,
+        "placement_ms": 239.22530002892017,
+        "shots": {
+          "density": 48,
+          "champion": 35,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85086,
+        "placement_ms": 253.34619998466223,
+        "shots": {
+          "density": 42,
+          "champion": 45,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85087,
+        "placement_ms": 271.25659998273477,
+        "shots": {
+          "density": 51,
+          "champion": 50,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85088,
+        "placement_ms": 254.28460002876818,
+        "shots": {
+          "density": 55,
+          "champion": 56,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85089,
+        "placement_ms": 260.7645000098273,
+        "shots": {
+          "density": 60,
+          "champion": 53,
+          "balanced": 35
+        }
+      },
+      {
+        "seed": 85090,
+        "placement_ms": 251.65970000671223,
+        "shots": {
+          "density": 59,
+          "champion": 43,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85091,
+        "placement_ms": 258.44529998721555,
+        "shots": {
+          "density": 46,
+          "champion": 62,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85092,
+        "placement_ms": 252.27419997099787,
+        "shots": {
+          "density": 57,
+          "champion": 50,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85093,
+        "placement_ms": 255.99139998666942,
+        "shots": {
+          "density": 60,
+          "champion": 47,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85094,
+        "placement_ms": 268.4984999941662,
+        "shots": {
+          "density": 64,
+          "champion": 39,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85095,
+        "placement_ms": 244.1738999914378,
+        "shots": {
+          "density": 35,
+          "champion": 49,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85096,
+        "placement_ms": 249.2696000263095,
+        "shots": {
+          "density": 41,
+          "champion": 62,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85097,
+        "placement_ms": 258.62679997226223,
+        "shots": {
+          "density": 49,
+          "champion": 30,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85098,
+        "placement_ms": 240.46020000241697,
+        "shots": {
+          "density": 48,
+          "champion": 47,
+          "balanced": 38
+        }
+      },
+      {
+        "seed": 85099,
+        "placement_ms": 262.6587999984622,
+        "shots": {
+          "density": 54,
+          "champion": 44,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85100,
+        "placement_ms": 251.1897999793291,
+        "shots": {
+          "density": 52,
+          "champion": 52,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85101,
+        "placement_ms": 246.0585000226274,
+        "shots": {
+          "density": 60,
+          "champion": 52,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85102,
+        "placement_ms": 258.2934999954887,
+        "shots": {
+          "density": 48,
+          "champion": 43,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85103,
+        "placement_ms": 254.27659996785223,
+        "shots": {
+          "density": 54,
+          "champion": 51,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85104,
+        "placement_ms": 247.96139996033162,
+        "shots": {
+          "density": 52,
+          "champion": 47,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85105,
+        "placement_ms": 257.6744999969378,
+        "shots": {
+          "density": 40,
+          "champion": 49,
+          "balanced": 60
+        }
+      },
+      {
+        "seed": 85106,
+        "placement_ms": 246.04269996052608,
+        "shots": {
+          "density": 53,
+          "champion": 53,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85107,
+        "placement_ms": 252.09279998671263,
+        "shots": {
+          "density": 49,
+          "champion": 46,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85108,
+        "placement_ms": 250.40449999505654,
+        "shots": {
+          "density": 51,
+          "champion": 60,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85109,
+        "placement_ms": 258.9546000235714,
+        "shots": {
+          "density": 50,
+          "champion": 63,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85110,
+        "placement_ms": 258.0086999805644,
+        "shots": {
+          "density": 47,
+          "champion": 46,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85111,
+        "placement_ms": 253.57349996920675,
+        "shots": {
+          "density": 55,
+          "champion": 44,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85112,
+        "placement_ms": 255.69600000744686,
+        "shots": {
+          "density": 46,
+          "champion": 46,
+          "balanced": 29
+        }
+      },
+      {
+        "seed": 85113,
+        "placement_ms": 260.2231999626383,
+        "shots": {
+          "density": 33,
+          "champion": 60,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85114,
+        "placement_ms": 264.91800002986565,
+        "shots": {
+          "density": 47,
+          "champion": 52,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85115,
+        "placement_ms": 255.99710003007203,
+        "shots": {
+          "density": 65,
+          "champion": 62,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85116,
+        "placement_ms": 254.365999950096,
+        "shots": {
+          "density": 45,
+          "champion": 37,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85117,
+        "placement_ms": 249.48240001685917,
+        "shots": {
+          "density": 65,
+          "champion": 55,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85118,
+        "placement_ms": 252.4998000008054,
+        "shots": {
+          "density": 59,
+          "champion": 41,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85119,
+        "placement_ms": 255.12360001448542,
+        "shots": {
+          "density": 49,
+          "champion": 50,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85120,
+        "placement_ms": 257.0708999992348,
+        "shots": {
+          "density": 62,
+          "champion": 63,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85121,
+        "placement_ms": 260.1380999549292,
+        "shots": {
+          "density": 30,
+          "champion": 55,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85122,
+        "placement_ms": 254.66179999057204,
+        "shots": {
+          "density": 67,
+          "champion": 54,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85123,
+        "placement_ms": 253.08519997633994,
+        "shots": {
+          "density": 42,
+          "champion": 55,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85124,
+        "placement_ms": 262.42000004276633,
+        "shots": {
+          "density": 52,
+          "champion": 53,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85125,
+        "placement_ms": 259.9900999921374,
+        "shots": {
+          "density": 64,
+          "champion": 39,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85126,
+        "placement_ms": 263.2595000322908,
+        "shots": {
+          "density": 51,
+          "champion": 44,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85127,
+        "placement_ms": 248.16060002194718,
+        "shots": {
+          "density": 33,
+          "champion": 43,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85128,
+        "placement_ms": 258.778200019151,
+        "shots": {
+          "density": 43,
+          "champion": 44,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85129,
+        "placement_ms": 251.72850000672042,
+        "shots": {
+          "density": 46,
+          "champion": 46,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85130,
+        "placement_ms": 247.44480004301295,
+        "shots": {
+          "density": 41,
+          "champion": 38,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85131,
+        "placement_ms": 259.30660002632067,
+        "shots": {
+          "density": 63,
+          "champion": 55,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85132,
+        "placement_ms": 257.83850002335384,
+        "shots": {
+          "density": 47,
+          "champion": 55,
+          "balanced": 35
+        }
+      },
+      {
+        "seed": 85133,
+        "placement_ms": 255.21289999596775,
+        "shots": {
+          "density": 38,
+          "champion": 31,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85134,
+        "placement_ms": 261.37859997106716,
+        "shots": {
+          "density": 49,
+          "champion": 49,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85135,
+        "placement_ms": 246.52889999561012,
+        "shots": {
+          "density": 50,
+          "champion": 58,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85136,
+        "placement_ms": 255.88429998606443,
+        "shots": {
+          "density": 52,
+          "champion": 53,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85137,
+        "placement_ms": 252.91700003435835,
+        "shots": {
+          "density": 58,
+          "champion": 49,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85138,
+        "placement_ms": 241.81820004014298,
+        "shots": {
+          "density": 41,
+          "champion": 47,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85139,
+        "placement_ms": 267.6639999845065,
+        "shots": {
+          "density": 43,
+          "champion": 45,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85140,
+        "placement_ms": 257.6794999768026,
+        "shots": {
+          "density": 48,
+          "champion": 52,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85141,
+        "placement_ms": 246.50449998443946,
+        "shots": {
+          "density": 31,
+          "champion": 51,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85142,
+        "placement_ms": 253.06309998268262,
+        "shots": {
+          "density": 57,
+          "champion": 53,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85143,
+        "placement_ms": 247.80029995599762,
+        "shots": {
+          "density": 53,
+          "champion": 44,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85144,
+        "placement_ms": 243.78520000027493,
+        "shots": {
+          "density": 59,
+          "champion": 65,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85145,
+        "placement_ms": 254.06170001951978,
+        "shots": {
+          "density": 44,
+          "champion": 46,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85146,
+        "placement_ms": 264.2737000132911,
+        "shots": {
+          "density": 51,
+          "champion": 40,
+          "balanced": 69
+        }
+      },
+      {
+        "seed": 85147,
+        "placement_ms": 288.4143000119366,
+        "shots": {
+          "density": 39,
+          "champion": 28,
+          "balanced": 37
+        }
+      },
+      {
+        "seed": 85148,
+        "placement_ms": 253.94850003067404,
+        "shots": {
+          "density": 49,
+          "champion": 44,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85149,
+        "placement_ms": 260.38659998448566,
+        "shots": {
+          "density": 50,
+          "champion": 55,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85150,
+        "placement_ms": 251.18199997814372,
+        "shots": {
+          "density": 58,
+          "champion": 49,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85151,
+        "placement_ms": 252.42650002473965,
+        "shots": {
+          "density": 59,
+          "champion": 47,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85152,
+        "placement_ms": 255.93330000992864,
+        "shots": {
+          "density": 56,
+          "champion": 47,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85153,
+        "placement_ms": 245.00130000524223,
+        "shots": {
+          "density": 45,
+          "champion": 61,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85154,
+        "placement_ms": 264.0526000177488,
+        "shots": {
+          "density": 60,
+          "champion": 45,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85155,
+        "placement_ms": 252.01160000870004,
+        "shots": {
+          "density": 60,
+          "champion": 31,
+          "balanced": 38
+        }
+      },
+      {
+        "seed": 85156,
+        "placement_ms": 282.66079997411,
+        "shots": {
+          "density": 34,
+          "champion": 61,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85157,
+        "placement_ms": 274.46700003929436,
+        "shots": {
+          "density": 41,
+          "champion": 50,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85158,
+        "placement_ms": 260.73410001117736,
+        "shots": {
+          "density": 61,
+          "champion": 48,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85159,
+        "placement_ms": 250.47889997949824,
+        "shots": {
+          "density": 49,
+          "champion": 51,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85160,
+        "placement_ms": 256.8763000308536,
+        "shots": {
+          "density": 52,
+          "champion": 45,
+          "balanced": 37
+        }
+      },
+      {
+        "seed": 85161,
+        "placement_ms": 270.37929999642074,
+        "shots": {
+          "density": 27,
+          "champion": 46,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85162,
+        "placement_ms": 248.60629998147488,
+        "shots": {
+          "density": 68,
+          "champion": 50,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85163,
+        "placement_ms": 243.0335000390187,
+        "shots": {
+          "density": 53,
+          "champion": 48,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85164,
+        "placement_ms": 269.92960000643507,
+        "shots": {
+          "density": 49,
+          "champion": 56,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85165,
+        "placement_ms": 272.86989998538047,
+        "shots": {
+          "density": 39,
+          "champion": 61,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85166,
+        "placement_ms": 249.18619997333735,
+        "shots": {
+          "density": 40,
+          "champion": 55,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85167,
+        "placement_ms": 259.8708000150509,
+        "shots": {
+          "density": 48,
+          "champion": 47,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85168,
+        "placement_ms": 259.4235999858938,
+        "shots": {
+          "density": 27,
+          "champion": 47,
+          "balanced": 30
+        }
+      },
+      {
+        "seed": 85169,
+        "placement_ms": 256.77199999336153,
+        "shots": {
+          "density": 65,
+          "champion": 34,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85170,
+        "placement_ms": 257.6984000043012,
+        "shots": {
+          "density": 42,
+          "champion": 41,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85171,
+        "placement_ms": 270.73779999045655,
+        "shots": {
+          "density": 58,
+          "champion": 54,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85172,
+        "placement_ms": 271.2084000231698,
+        "shots": {
+          "density": 56,
+          "champion": 50,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85173,
+        "placement_ms": 256.3054999918677,
+        "shots": {
+          "density": 45,
+          "champion": 39,
+          "balanced": 37
+        }
+      },
+      {
+        "seed": 85174,
+        "placement_ms": 243.90880001010373,
+        "shots": {
+          "density": 43,
+          "champion": 50,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85175,
+        "placement_ms": 254.73659997805953,
+        "shots": {
+          "density": 62,
+          "champion": 60,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85176,
+        "placement_ms": 268.3455999940634,
+        "shots": {
+          "density": 64,
+          "champion": 52,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85177,
+        "placement_ms": 258.6192000308074,
+        "shots": {
+          "density": 64,
+          "champion": 51,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85178,
+        "placement_ms": 255.9511999716051,
+        "shots": {
+          "density": 60,
+          "champion": 54,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85179,
+        "placement_ms": 245.23120000958443,
+        "shots": {
+          "density": 48,
+          "champion": 42,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85180,
+        "placement_ms": 261.90340000903234,
+        "shots": {
+          "density": 37,
+          "champion": 62,
+          "balanced": 67
+        }
+      },
+      {
+        "seed": 85181,
+        "placement_ms": 255.6458999752067,
+        "shots": {
+          "density": 65,
+          "champion": 44,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85182,
+        "placement_ms": 255.62609999906272,
+        "shots": {
+          "density": 64,
+          "champion": 55,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85183,
+        "placement_ms": 262.29389995569363,
+        "shots": {
+          "density": 41,
+          "champion": 50,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85184,
+        "placement_ms": 250.83480001194403,
+        "shots": {
+          "density": 33,
+          "champion": 49,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85185,
+        "placement_ms": 260.6239999877289,
+        "shots": {
+          "density": 48,
+          "champion": 37,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85186,
+        "placement_ms": 266.7970000184141,
+        "shots": {
+          "density": 37,
+          "champion": 59,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85187,
+        "placement_ms": 247.19229998299852,
+        "shots": {
+          "density": 64,
+          "champion": 45,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85188,
+        "placement_ms": 261.5992000210099,
+        "shots": {
+          "density": 27,
+          "champion": 51,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85189,
+        "placement_ms": 248.85179998818785,
+        "shots": {
+          "density": 67,
+          "champion": 44,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85190,
+        "placement_ms": 256.6372000146657,
+        "shots": {
+          "density": 57,
+          "champion": 59,
+          "balanced": 34
+        }
+      },
+      {
+        "seed": 85191,
+        "placement_ms": 268.2201000279747,
+        "shots": {
+          "density": 56,
+          "champion": 55,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85192,
+        "placement_ms": 266.1661000456661,
+        "shots": {
+          "density": 58,
+          "champion": 56,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85193,
+        "placement_ms": 262.7331000403501,
+        "shots": {
+          "density": 49,
+          "champion": 41,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85194,
+        "placement_ms": 267.7574999979697,
+        "shots": {
+          "density": 37,
+          "champion": 51,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85195,
+        "placement_ms": 251.36550003662705,
+        "shots": {
+          "density": 70,
+          "champion": 42,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85196,
+        "placement_ms": 257.9214000143111,
+        "shots": {
+          "density": 62,
+          "champion": 56,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85197,
+        "placement_ms": 264.1225000261329,
+        "shots": {
+          "density": 36,
+          "champion": 47,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85198,
+        "placement_ms": 245.38599996594712,
+        "shots": {
+          "density": 48,
+          "champion": 54,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85199,
+        "placement_ms": 279.8699000268243,
+        "shots": {
+          "density": 39,
+          "champion": 66,
+          "balanced": 62
+        }
+      }
+    ]
+  },
+  {
+    "trial": 2,
+    "policy": {
+      "version": 1,
+      "mode": "hybrid",
+      "samples": 256,
+      "hunt_power": 0,
+      "length_power": 5,
+      "target_power": 2,
+      "sink_bonus": 0,
+      "info_bonus": 0.0,
+      "parity_bonus": 0,
+      "edge_bias": 0.2,
+      "target_edge_scale": 1.0,
+      "target_bonus": 1,
+      "joint_mix": 0.5,
+      "exact_limit": 20000,
+      "endgame_limit": 6,
+      "defense_candidates": 32,
+      "defense_mode": "robust",
+      "deployment": "mixed"
+    },
+    "mean_shots": {
+      "density": 51.85,
+      "champion": 51.06,
+      "balanced": 50.15
+    },
+    "max_placement_ms": 739.0116999740712,
+    "rows": [
+      {
+        "seed": 85000,
+        "placement_ms": 697.5758000044152,
+        "shots": {
+          "density": 50,
+          "champion": 49,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85001,
+        "placement_ms": 676.8730999901891,
+        "shots": {
+          "density": 37,
+          "champion": 48,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85002,
+        "placement_ms": 685.698900022544,
+        "shots": {
+          "density": 53,
+          "champion": 47,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85003,
+        "placement_ms": 666.8883999809623,
+        "shots": {
+          "density": 47,
+          "champion": 54,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85004,
+        "placement_ms": 684.6767000388354,
+        "shots": {
+          "density": 54,
+          "champion": 51,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85005,
+        "placement_ms": 683.79050004296,
+        "shots": {
+          "density": 53,
+          "champion": 54,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85006,
+        "placement_ms": 670.0507999630645,
+        "shots": {
+          "density": 58,
+          "champion": 51,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85007,
+        "placement_ms": 674.3066000053659,
+        "shots": {
+          "density": 54,
+          "champion": 41,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85008,
+        "placement_ms": 670.2364000375383,
+        "shots": {
+          "density": 45,
+          "champion": 43,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85009,
+        "placement_ms": 683.2070000236854,
+        "shots": {
+          "density": 42,
+          "champion": 56,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85010,
+        "placement_ms": 696.7781000421382,
+        "shots": {
+          "density": 56,
+          "champion": 46,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85011,
+        "placement_ms": 666.9966999907047,
+        "shots": {
+          "density": 55,
+          "champion": 36,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85012,
+        "placement_ms": 681.8811999983154,
+        "shots": {
+          "density": 57,
+          "champion": 43,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85013,
+        "placement_ms": 705.2384000271559,
+        "shots": {
+          "density": 52,
+          "champion": 55,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85014,
+        "placement_ms": 688.2218000246212,
+        "shots": {
+          "density": 41,
+          "champion": 56,
+          "balanced": 38
+        }
+      },
+      {
+        "seed": 85015,
+        "placement_ms": 674.1790000232868,
+        "shots": {
+          "density": 61,
+          "champion": 50,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85016,
+        "placement_ms": 691.7576999985613,
+        "shots": {
+          "density": 46,
+          "champion": 52,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85017,
+        "placement_ms": 681.0146999778226,
+        "shots": {
+          "density": 67,
+          "champion": 61,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85018,
+        "placement_ms": 678.8113999646157,
+        "shots": {
+          "density": 50,
+          "champion": 56,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85019,
+        "placement_ms": 671.9609000138007,
+        "shots": {
+          "density": 58,
+          "champion": 33,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85020,
+        "placement_ms": 683.5575000150129,
+        "shots": {
+          "density": 51,
+          "champion": 53,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85021,
+        "placement_ms": 661.5094000007957,
+        "shots": {
+          "density": 54,
+          "champion": 46,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85022,
+        "placement_ms": 702.3622000124305,
+        "shots": {
+          "density": 55,
+          "champion": 53,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85023,
+        "placement_ms": 651.7192999599501,
+        "shots": {
+          "density": 43,
+          "champion": 50,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85024,
+        "placement_ms": 695.263400033582,
+        "shots": {
+          "density": 54,
+          "champion": 47,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85025,
+        "placement_ms": 661.0068999580108,
+        "shots": {
+          "density": 39,
+          "champion": 49,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85026,
+        "placement_ms": 683.8317000074312,
+        "shots": {
+          "density": 57,
+          "champion": 48,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85027,
+        "placement_ms": 663.7619000393897,
+        "shots": {
+          "density": 43,
+          "champion": 50,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85028,
+        "placement_ms": 703.2879000180401,
+        "shots": {
+          "density": 41,
+          "champion": 62,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85029,
+        "placement_ms": 696.103599970229,
+        "shots": {
+          "density": 48,
+          "champion": 61,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85030,
+        "placement_ms": 697.6295000058599,
+        "shots": {
+          "density": 63,
+          "champion": 53,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85031,
+        "placement_ms": 679.1170000215061,
+        "shots": {
+          "density": 58,
+          "champion": 53,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85032,
+        "placement_ms": 692.906700016465,
+        "shots": {
+          "density": 49,
+          "champion": 57,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85033,
+        "placement_ms": 657.363600039389,
+        "shots": {
+          "density": 54,
+          "champion": 59,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85034,
+        "placement_ms": 690.8767999848351,
+        "shots": {
+          "density": 63,
+          "champion": 55,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85035,
+        "placement_ms": 672.4658999592066,
+        "shots": {
+          "density": 63,
+          "champion": 55,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85036,
+        "placement_ms": 681.2888000276871,
+        "shots": {
+          "density": 71,
+          "champion": 64,
+          "balanced": 67
+        }
+      },
+      {
+        "seed": 85037,
+        "placement_ms": 685.188899980858,
+        "shots": {
+          "density": 63,
+          "champion": 45,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85038,
+        "placement_ms": 671.6879999730736,
+        "shots": {
+          "density": 39,
+          "champion": 47,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85039,
+        "placement_ms": 672.2644999972545,
+        "shots": {
+          "density": 64,
+          "champion": 53,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85040,
+        "placement_ms": 689.8768999963067,
+        "shots": {
+          "density": 36,
+          "champion": 29,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85041,
+        "placement_ms": 688.5598000371829,
+        "shots": {
+          "density": 49,
+          "champion": 38,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85042,
+        "placement_ms": 684.6016999916174,
+        "shots": {
+          "density": 64,
+          "champion": 53,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85043,
+        "placement_ms": 679.6681999694556,
+        "shots": {
+          "density": 58,
+          "champion": 58,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85044,
+        "placement_ms": 674.6049000066705,
+        "shots": {
+          "density": 58,
+          "champion": 39,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85045,
+        "placement_ms": 669.6326000383124,
+        "shots": {
+          "density": 61,
+          "champion": 64,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85046,
+        "placement_ms": 686.1220999853685,
+        "shots": {
+          "density": 48,
+          "champion": 42,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85047,
+        "placement_ms": 713.4307000087574,
+        "shots": {
+          "density": 64,
+          "champion": 55,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85048,
+        "placement_ms": 676.7126000486314,
+        "shots": {
+          "density": 47,
+          "champion": 48,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85049,
+        "placement_ms": 689.0626000240445,
+        "shots": {
+          "density": 25,
+          "champion": 58,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85050,
+        "placement_ms": 695.8075999864377,
+        "shots": {
+          "density": 57,
+          "champion": 50,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85051,
+        "placement_ms": 693.6529999948107,
+        "shots": {
+          "density": 60,
+          "champion": 51,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85052,
+        "placement_ms": 673.4680000226945,
+        "shots": {
+          "density": 31,
+          "champion": 64,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85053,
+        "placement_ms": 674.954499991145,
+        "shots": {
+          "density": 53,
+          "champion": 62,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85054,
+        "placement_ms": 678.9393000071868,
+        "shots": {
+          "density": 42,
+          "champion": 64,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85055,
+        "placement_ms": 707.2496999753639,
+        "shots": {
+          "density": 22,
+          "champion": 55,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85056,
+        "placement_ms": 686.3038999726996,
+        "shots": {
+          "density": 42,
+          "champion": 45,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85057,
+        "placement_ms": 676.9415999879129,
+        "shots": {
+          "density": 40,
+          "champion": 60,
+          "balanced": 60
+        }
+      },
+      {
+        "seed": 85058,
+        "placement_ms": 684.4185999943875,
+        "shots": {
+          "density": 51,
+          "champion": 55,
+          "balanced": 24
+        }
+      },
+      {
+        "seed": 85059,
+        "placement_ms": 669.8431000113487,
+        "shots": {
+          "density": 60,
+          "champion": 37,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85060,
+        "placement_ms": 693.2815000182018,
+        "shots": {
+          "density": 44,
+          "champion": 36,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85061,
+        "placement_ms": 669.476599956397,
+        "shots": {
+          "density": 48,
+          "champion": 42,
+          "balanced": 33
+        }
+      },
+      {
+        "seed": 85062,
+        "placement_ms": 689.8447999847122,
+        "shots": {
+          "density": 58,
+          "champion": 50,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85063,
+        "placement_ms": 679.7449999721721,
+        "shots": {
+          "density": 46,
+          "champion": 50,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85064,
+        "placement_ms": 703.6840000073425,
+        "shots": {
+          "density": 66,
+          "champion": 60,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85065,
+        "placement_ms": 678.154600027483,
+        "shots": {
+          "density": 56,
+          "champion": 37,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85066,
+        "placement_ms": 714.3606999889016,
+        "shots": {
+          "density": 47,
+          "champion": 63,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85067,
+        "placement_ms": 683.695700019598,
+        "shots": {
+          "density": 61,
+          "champion": 51,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85068,
+        "placement_ms": 685.3734999895096,
+        "shots": {
+          "density": 65,
+          "champion": 58,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85069,
+        "placement_ms": 689.7806999622844,
+        "shots": {
+          "density": 60,
+          "champion": 53,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85070,
+        "placement_ms": 662.9709000117145,
+        "shots": {
+          "density": 67,
+          "champion": 51,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85071,
+        "placement_ms": 686.7380999610759,
+        "shots": {
+          "density": 48,
+          "champion": 60,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85072,
+        "placement_ms": 707.6391000300646,
+        "shots": {
+          "density": 52,
+          "champion": 55,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85073,
+        "placement_ms": 698.1093999929726,
+        "shots": {
+          "density": 44,
+          "champion": 63,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85074,
+        "placement_ms": 698.1250999961048,
+        "shots": {
+          "density": 43,
+          "champion": 49,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85075,
+        "placement_ms": 682.7473999583162,
+        "shots": {
+          "density": 43,
+          "champion": 31,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85076,
+        "placement_ms": 684.6813000156544,
+        "shots": {
+          "density": 54,
+          "champion": 55,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85077,
+        "placement_ms": 697.7530000149272,
+        "shots": {
+          "density": 60,
+          "champion": 51,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85078,
+        "placement_ms": 695.7683000364341,
+        "shots": {
+          "density": 44,
+          "champion": 54,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85079,
+        "placement_ms": 687.8409999771975,
+        "shots": {
+          "density": 36,
+          "champion": 64,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85080,
+        "placement_ms": 693.7665999867022,
+        "shots": {
+          "density": 49,
+          "champion": 60,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85081,
+        "placement_ms": 680.4018999682739,
+        "shots": {
+          "density": 58,
+          "champion": 52,
+          "balanced": 60
+        }
+      },
+      {
+        "seed": 85082,
+        "placement_ms": 707.8004999784753,
+        "shots": {
+          "density": 37,
+          "champion": 60,
+          "balanced": 67
+        }
+      },
+      {
+        "seed": 85083,
+        "placement_ms": 686.3029999658465,
+        "shots": {
+          "density": 51,
+          "champion": 53,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85084,
+        "placement_ms": 692.5546000129543,
+        "shots": {
+          "density": 62,
+          "champion": 62,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85085,
+        "placement_ms": 673.4911000239663,
+        "shots": {
+          "density": 60,
+          "champion": 63,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85086,
+        "placement_ms": 679.1621999582276,
+        "shots": {
+          "density": 61,
+          "champion": 60,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85087,
+        "placement_ms": 694.092100020498,
+        "shots": {
+          "density": 51,
+          "champion": 50,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85088,
+        "placement_ms": 669.6111999917775,
+        "shots": {
+          "density": 55,
+          "champion": 56,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85089,
+        "placement_ms": 703.8187999860384,
+        "shots": {
+          "density": 65,
+          "champion": 41,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85090,
+        "placement_ms": 685.2396000176668,
+        "shots": {
+          "density": 49,
+          "champion": 47,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85091,
+        "placement_ms": 690.3583000530489,
+        "shots": {
+          "density": 27,
+          "champion": 59,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85092,
+        "placement_ms": 686.7749000084586,
+        "shots": {
+          "density": 57,
+          "champion": 50,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85093,
+        "placement_ms": 695.2214999473654,
+        "shots": {
+          "density": 62,
+          "champion": 54,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85094,
+        "placement_ms": 709.155999997165,
+        "shots": {
+          "density": 64,
+          "champion": 39,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85095,
+        "placement_ms": 697.2535000531934,
+        "shots": {
+          "density": 54,
+          "champion": 54,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85096,
+        "placement_ms": 684.8637000075541,
+        "shots": {
+          "density": 41,
+          "champion": 62,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85097,
+        "placement_ms": 695.9714999538846,
+        "shots": {
+          "density": 46,
+          "champion": 48,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85098,
+        "placement_ms": 688.6887000291608,
+        "shots": {
+          "density": 63,
+          "champion": 54,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85099,
+        "placement_ms": 681.5323000191711,
+        "shots": {
+          "density": 56,
+          "champion": 46,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85100,
+        "placement_ms": 674.8522000270896,
+        "shots": {
+          "density": 51,
+          "champion": 35,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85101,
+        "placement_ms": 679.9387999926694,
+        "shots": {
+          "density": 37,
+          "champion": 52,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85102,
+        "placement_ms": 693.1000000331551,
+        "shots": {
+          "density": 44,
+          "champion": 56,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85103,
+        "placement_ms": 687.8325999714434,
+        "shots": {
+          "density": 55,
+          "champion": 50,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85104,
+        "placement_ms": 703.8795999833383,
+        "shots": {
+          "density": 27,
+          "champion": 61,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85105,
+        "placement_ms": 688.8750999933109,
+        "shots": {
+          "density": 58,
+          "champion": 62,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85106,
+        "placement_ms": 679.4200000003912,
+        "shots": {
+          "density": 65,
+          "champion": 57,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85107,
+        "placement_ms": 688.5406000073999,
+        "shots": {
+          "density": 55,
+          "champion": 36,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85108,
+        "placement_ms": 684.3453000183217,
+        "shots": {
+          "density": 64,
+          "champion": 55,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85109,
+        "placement_ms": 685.0415999651887,
+        "shots": {
+          "density": 42,
+          "champion": 51,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85110,
+        "placement_ms": 687.0259999996051,
+        "shots": {
+          "density": 47,
+          "champion": 46,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85111,
+        "placement_ms": 688.0804999964312,
+        "shots": {
+          "density": 35,
+          "champion": 46,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85112,
+        "placement_ms": 710.1616999716498,
+        "shots": {
+          "density": 35,
+          "champion": 38,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85113,
+        "placement_ms": 696.2375000002794,
+        "shots": {
+          "density": 45,
+          "champion": 44,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85114,
+        "placement_ms": 691.5946999797598,
+        "shots": {
+          "density": 50,
+          "champion": 55,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85115,
+        "placement_ms": 697.6740999962203,
+        "shots": {
+          "density": 56,
+          "champion": 43,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85116,
+        "placement_ms": 690.171999973245,
+        "shots": {
+          "density": 45,
+          "champion": 37,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85117,
+        "placement_ms": 673.3395999763161,
+        "shots": {
+          "density": 43,
+          "champion": 40,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85118,
+        "placement_ms": 694.8359999805689,
+        "shots": {
+          "density": 60,
+          "champion": 60,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85119,
+        "placement_ms": 705.6356999673881,
+        "shots": {
+          "density": 50,
+          "champion": 57,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85120,
+        "placement_ms": 693.866900051944,
+        "shots": {
+          "density": 58,
+          "champion": 48,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85121,
+        "placement_ms": 703.4169000107795,
+        "shots": {
+          "density": 63,
+          "champion": 67,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85122,
+        "placement_ms": 696.34170003701,
+        "shots": {
+          "density": 53,
+          "champion": 54,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85123,
+        "placement_ms": 689.365700003691,
+        "shots": {
+          "density": 37,
+          "champion": 52,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85124,
+        "placement_ms": 713.4896999923512,
+        "shots": {
+          "density": 51,
+          "champion": 53,
+          "balanced": 60
+        }
+      },
+      {
+        "seed": 85125,
+        "placement_ms": 688.3617999847047,
+        "shots": {
+          "density": 64,
+          "champion": 39,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85126,
+        "placement_ms": 707.1410999633372,
+        "shots": {
+          "density": 54,
+          "champion": 53,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85127,
+        "placement_ms": 684.3905999558046,
+        "shots": {
+          "density": 66,
+          "champion": 51,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85128,
+        "placement_ms": 692.5745999906212,
+        "shots": {
+          "density": 43,
+          "champion": 58,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85129,
+        "placement_ms": 689.9646000238135,
+        "shots": {
+          "density": 51,
+          "champion": 44,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85130,
+        "placement_ms": 702.8328999876976,
+        "shots": {
+          "density": 56,
+          "champion": 48,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85131,
+        "placement_ms": 693.3100000023842,
+        "shots": {
+          "density": 63,
+          "champion": 55,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85132,
+        "placement_ms": 685.0666999816895,
+        "shots": {
+          "density": 44,
+          "champion": 48,
+          "balanced": 30
+        }
+      },
+      {
+        "seed": 85133,
+        "placement_ms": 696.1370999924839,
+        "shots": {
+          "density": 44,
+          "champion": 36,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85134,
+        "placement_ms": 708.4950000280514,
+        "shots": {
+          "density": 63,
+          "champion": 55,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85135,
+        "placement_ms": 684.5213999622501,
+        "shots": {
+          "density": 50,
+          "champion": 58,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85136,
+        "placement_ms": 692.6815999904647,
+        "shots": {
+          "density": 65,
+          "champion": 37,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85137,
+        "placement_ms": 711.1884000478312,
+        "shots": {
+          "density": 52,
+          "champion": 51,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85138,
+        "placement_ms": 687.2068000375293,
+        "shots": {
+          "density": 39,
+          "champion": 54,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85139,
+        "placement_ms": 660.0536999758333,
+        "shots": {
+          "density": 58,
+          "champion": 51,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85140,
+        "placement_ms": 704.4605999835767,
+        "shots": {
+          "density": 57,
+          "champion": 45,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85141,
+        "placement_ms": 673.2955999905244,
+        "shots": {
+          "density": 46,
+          "champion": 45,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85142,
+        "placement_ms": 681.4087000093423,
+        "shots": {
+          "density": 57,
+          "champion": 53,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85143,
+        "placement_ms": 692.5256000249647,
+        "shots": {
+          "density": 56,
+          "champion": 51,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85144,
+        "placement_ms": 681.9286000099964,
+        "shots": {
+          "density": 63,
+          "champion": 52,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85145,
+        "placement_ms": 717.0211999909952,
+        "shots": {
+          "density": 47,
+          "champion": 44,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85146,
+        "placement_ms": 684.8390999948606,
+        "shots": {
+          "density": 66,
+          "champion": 56,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85147,
+        "placement_ms": 702.8893999522552,
+        "shots": {
+          "density": 39,
+          "champion": 28,
+          "balanced": 37
+        }
+      },
+      {
+        "seed": 85148,
+        "placement_ms": 698.81470000837,
+        "shots": {
+          "density": 64,
+          "champion": 49,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85149,
+        "placement_ms": 710.0900000077672,
+        "shots": {
+          "density": 50,
+          "champion": 55,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85150,
+        "placement_ms": 683.4843000397086,
+        "shots": {
+          "density": 58,
+          "champion": 49,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85151,
+        "placement_ms": 681.0470999917015,
+        "shots": {
+          "density": 59,
+          "champion": 47,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85152,
+        "placement_ms": 690.1478000218049,
+        "shots": {
+          "density": 56,
+          "champion": 47,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85153,
+        "placement_ms": 688.6124000302516,
+        "shots": {
+          "density": 66,
+          "champion": 58,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85154,
+        "placement_ms": 700.0128999934532,
+        "shots": {
+          "density": 53,
+          "champion": 53,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85155,
+        "placement_ms": 694.1689999657683,
+        "shots": {
+          "density": 59,
+          "champion": 63,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85156,
+        "placement_ms": 681.7318000248633,
+        "shots": {
+          "density": 55,
+          "champion": 64,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85157,
+        "placement_ms": 700.8191000204533,
+        "shots": {
+          "density": 65,
+          "champion": 48,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85158,
+        "placement_ms": 682.144399965182,
+        "shots": {
+          "density": 41,
+          "champion": 49,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85159,
+        "placement_ms": 682.2233999846503,
+        "shots": {
+          "density": 48,
+          "champion": 43,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85160,
+        "placement_ms": 692.8063000086695,
+        "shots": {
+          "density": 57,
+          "champion": 52,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85161,
+        "placement_ms": 684.8442999762483,
+        "shots": {
+          "density": 27,
+          "champion": 46,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85162,
+        "placement_ms": 693.9998000161722,
+        "shots": {
+          "density": 68,
+          "champion": 50,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85163,
+        "placement_ms": 702.8175999876112,
+        "shots": {
+          "density": 59,
+          "champion": 54,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85164,
+        "placement_ms": 689.7688000462949,
+        "shots": {
+          "density": 51,
+          "champion": 52,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85165,
+        "placement_ms": 713.4520999970846,
+        "shots": {
+          "density": 41,
+          "champion": 62,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85166,
+        "placement_ms": 678.9905999903567,
+        "shots": {
+          "density": 34,
+          "champion": 48,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85167,
+        "placement_ms": 706.1297000036575,
+        "shots": {
+          "density": 33,
+          "champion": 47,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85168,
+        "placement_ms": 694.2471000365913,
+        "shots": {
+          "density": 48,
+          "champion": 42,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85169,
+        "placement_ms": 694.5461999857798,
+        "shots": {
+          "density": 62,
+          "champion": 51,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85170,
+        "placement_ms": 696.7882000026293,
+        "shots": {
+          "density": 56,
+          "champion": 65,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85171,
+        "placement_ms": 713.0904000368901,
+        "shots": {
+          "density": 40,
+          "champion": 58,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85172,
+        "placement_ms": 725.5043999757618,
+        "shots": {
+          "density": 52,
+          "champion": 48,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85173,
+        "placement_ms": 707.5671999482438,
+        "shots": {
+          "density": 60,
+          "champion": 64,
+          "balanced": 35
+        }
+      },
+      {
+        "seed": 85174,
+        "placement_ms": 719.7037999867462,
+        "shots": {
+          "density": 43,
+          "champion": 59,
+          "balanced": 60
+        }
+      },
+      {
+        "seed": 85175,
+        "placement_ms": 729.2756999959238,
+        "shots": {
+          "density": 62,
+          "champion": 60,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85176,
+        "placement_ms": 689.9049000348896,
+        "shots": {
+          "density": 63,
+          "champion": 52,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85177,
+        "placement_ms": 679.2576999869198,
+        "shots": {
+          "density": 61,
+          "champion": 39,
+          "balanced": 37
+        }
+      },
+      {
+        "seed": 85178,
+        "placement_ms": 680.9700000449084,
+        "shots": {
+          "density": 60,
+          "champion": 54,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85179,
+        "placement_ms": 673.4957000007853,
+        "shots": {
+          "density": 53,
+          "champion": 49,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85180,
+        "placement_ms": 697.8601000155322,
+        "shots": {
+          "density": 59,
+          "champion": 53,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85181,
+        "placement_ms": 703.2183000119403,
+        "shots": {
+          "density": 65,
+          "champion": 44,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85182,
+        "placement_ms": 729.1417999658734,
+        "shots": {
+          "density": 61,
+          "champion": 49,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85183,
+        "placement_ms": 708.442599978298,
+        "shots": {
+          "density": 46,
+          "champion": 29,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85184,
+        "placement_ms": 684.8500000196509,
+        "shots": {
+          "density": 47,
+          "champion": 36,
+          "balanced": 67
+        }
+      },
+      {
+        "seed": 85185,
+        "placement_ms": 694.4192000082694,
+        "shots": {
+          "density": 49,
+          "champion": 54,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85186,
+        "placement_ms": 708.1257000099868,
+        "shots": {
+          "density": 61,
+          "champion": 53,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85187,
+        "placement_ms": 680.1372999907471,
+        "shots": {
+          "density": 65,
+          "champion": 48,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85188,
+        "placement_ms": 739.0116999740712,
+        "shots": {
+          "density": 45,
+          "champion": 63,
+          "balanced": 31
+        }
+      },
+      {
+        "seed": 85189,
+        "placement_ms": 719.175600039307,
+        "shots": {
+          "density": 57,
+          "champion": 54,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85190,
+        "placement_ms": 710.936599993147,
+        "shots": {
+          "density": 57,
+          "champion": 59,
+          "balanced": 34
+        }
+      },
+      {
+        "seed": 85191,
+        "placement_ms": 720.9289000020362,
+        "shots": {
+          "density": 54,
+          "champion": 57,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85192,
+        "placement_ms": 682.8743999940343,
+        "shots": {
+          "density": 46,
+          "champion": 49,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85193,
+        "placement_ms": 691.602100036107,
+        "shots": {
+          "density": 56,
+          "champion": 49,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85194,
+        "placement_ms": 677.9685000074096,
+        "shots": {
+          "density": 38,
+          "champion": 37,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85195,
+        "placement_ms": 679.96320000384,
+        "shots": {
+          "density": 42,
+          "champion": 37,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85196,
+        "placement_ms": 704.0225999662653,
+        "shots": {
+          "density": 38,
+          "champion": 59,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85197,
+        "placement_ms": 701.834500010591,
+        "shots": {
+          "density": 54,
+          "champion": 51,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85198,
+        "placement_ms": 700.9538999991491,
+        "shots": {
+          "density": 32,
+          "champion": 49,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85199,
+        "placement_ms": 701.5505000017583,
+        "shots": {
+          "density": 39,
+          "champion": 66,
+          "balanced": 62
+        }
+      }
+    ]
+  },
+  {
+    "trial": 3,
+    "policy": {
+      "version": 1,
+      "mode": "hybrid",
+      "samples": 256,
+      "hunt_power": 0,
+      "length_power": 5,
+      "target_power": 2,
+      "sink_bonus": 0,
+      "info_bonus": 0.0,
+      "parity_bonus": 0,
+      "edge_bias": 0.2,
+      "target_edge_scale": 1.0,
+      "target_bonus": 1,
+      "joint_mix": 0.5,
+      "exact_limit": 20000,
+      "endgame_limit": 6,
+      "defense_candidates": 64,
+      "defense_mode": "robust",
+      "deployment": "mixed"
+    },
+    "mean_shots": {
+      "density": 53.275,
+      "champion": 51.195,
+      "balanced": 51.18
+    },
+    "max_placement_ms": 1482.0286000031047,
+    "rows": [
+      {
+        "seed": 85000,
+        "placement_ms": 1419.3863000255078,
+        "shots": {
+          "density": 33,
+          "champion": 40,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85001,
+        "placement_ms": 1390.5500000109896,
+        "shots": {
+          "density": 67,
+          "champion": 26,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85002,
+        "placement_ms": 1406.1730000539683,
+        "shots": {
+          "density": 64,
+          "champion": 48,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85003,
+        "placement_ms": 1380.6514999596402,
+        "shots": {
+          "density": 44,
+          "champion": 52,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85004,
+        "placement_ms": 1389.1755000222474,
+        "shots": {
+          "density": 68,
+          "champion": 47,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85005,
+        "placement_ms": 1375.8763000369072,
+        "shots": {
+          "density": 34,
+          "champion": 54,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85006,
+        "placement_ms": 1384.3451000284404,
+        "shots": {
+          "density": 60,
+          "champion": 51,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85007,
+        "placement_ms": 1385.2456999593414,
+        "shots": {
+          "density": 43,
+          "champion": 54,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85008,
+        "placement_ms": 1366.8290000059642,
+        "shots": {
+          "density": 46,
+          "champion": 53,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85009,
+        "placement_ms": 1379.5382999815047,
+        "shots": {
+          "density": 42,
+          "champion": 56,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85010,
+        "placement_ms": 1422.988299978897,
+        "shots": {
+          "density": 57,
+          "champion": 53,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85011,
+        "placement_ms": 1462.7329999930225,
+        "shots": {
+          "density": 31,
+          "champion": 58,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85012,
+        "placement_ms": 1384.6634000074118,
+        "shots": {
+          "density": 56,
+          "champion": 46,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85013,
+        "placement_ms": 1420.8691000239924,
+        "shots": {
+          "density": 57,
+          "champion": 41,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85014,
+        "placement_ms": 1394.7512000449933,
+        "shots": {
+          "density": 60,
+          "champion": 51,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85015,
+        "placement_ms": 1353.5415999940597,
+        "shots": {
+          "density": 55,
+          "champion": 64,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85016,
+        "placement_ms": 1383.3183000097051,
+        "shots": {
+          "density": 46,
+          "champion": 52,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85017,
+        "placement_ms": 1386.5084000281058,
+        "shots": {
+          "density": 67,
+          "champion": 61,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85018,
+        "placement_ms": 1351.7083000042476,
+        "shots": {
+          "density": 53,
+          "champion": 51,
+          "balanced": 63
+        }
+      },
+      {
+        "seed": 85019,
+        "placement_ms": 1383.2190000102855,
+        "shots": {
+          "density": 58,
+          "champion": 33,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85020,
+        "placement_ms": 1387.6787000335753,
+        "shots": {
+          "density": 54,
+          "champion": 53,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85021,
+        "placement_ms": 1407.7114000101574,
+        "shots": {
+          "density": 50,
+          "champion": 62,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85022,
+        "placement_ms": 1453.5525999963284,
+        "shots": {
+          "density": 65,
+          "champion": 55,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85023,
+        "placement_ms": 1430.0508000305854,
+        "shots": {
+          "density": 53,
+          "champion": 51,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85024,
+        "placement_ms": 1392.3284000484273,
+        "shots": {
+          "density": 54,
+          "champion": 61,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85025,
+        "placement_ms": 1360.647500026971,
+        "shots": {
+          "density": 39,
+          "champion": 49,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85026,
+        "placement_ms": 1372.0948000554927,
+        "shots": {
+          "density": 65,
+          "champion": 54,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85027,
+        "placement_ms": 1362.136100011412,
+        "shots": {
+          "density": 61,
+          "champion": 46,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85028,
+        "placement_ms": 1438.7645000242628,
+        "shots": {
+          "density": 70,
+          "champion": 30,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85029,
+        "placement_ms": 1420.8769999677315,
+        "shots": {
+          "density": 48,
+          "champion": 61,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85030,
+        "placement_ms": 1449.5251000043936,
+        "shots": {
+          "density": 63,
+          "champion": 53,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85031,
+        "placement_ms": 1420.5393000156619,
+        "shots": {
+          "density": 58,
+          "champion": 53,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85032,
+        "placement_ms": 1409.7971000010148,
+        "shots": {
+          "density": 58,
+          "champion": 58,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85033,
+        "placement_ms": 1350.665999983903,
+        "shots": {
+          "density": 40,
+          "champion": 60,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85034,
+        "placement_ms": 1416.2230000365525,
+        "shots": {
+          "density": 56,
+          "champion": 33,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85035,
+        "placement_ms": 1385.1779999677092,
+        "shots": {
+          "density": 63,
+          "champion": 55,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85036,
+        "placement_ms": 1445.3944999841042,
+        "shots": {
+          "density": 61,
+          "champion": 62,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85037,
+        "placement_ms": 1468.439300020691,
+        "shots": {
+          "density": 50,
+          "champion": 50,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85038,
+        "placement_ms": 1425.2592999837361,
+        "shots": {
+          "density": 46,
+          "champion": 59,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85039,
+        "placement_ms": 1450.5104999989271,
+        "shots": {
+          "density": 64,
+          "champion": 51,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85040,
+        "placement_ms": 1393.5735000413842,
+        "shots": {
+          "density": 57,
+          "champion": 48,
+          "balanced": 68
+        }
+      },
+      {
+        "seed": 85041,
+        "placement_ms": 1408.490100002382,
+        "shots": {
+          "density": 51,
+          "champion": 42,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85042,
+        "placement_ms": 1400.6584000308067,
+        "shots": {
+          "density": 65,
+          "champion": 45,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85043,
+        "placement_ms": 1367.2509999596514,
+        "shots": {
+          "density": 58,
+          "champion": 58,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85044,
+        "placement_ms": 1421.8271999852732,
+        "shots": {
+          "density": 39,
+          "champion": 49,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85045,
+        "placement_ms": 1396.2604999542236,
+        "shots": {
+          "density": 61,
+          "champion": 64,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85046,
+        "placement_ms": 1416.6547000058927,
+        "shots": {
+          "density": 48,
+          "champion": 42,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85047,
+        "placement_ms": 1444.5125999627635,
+        "shots": {
+          "density": 57,
+          "champion": 52,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85048,
+        "placement_ms": 1397.036799986381,
+        "shots": {
+          "density": 38,
+          "champion": 59,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85049,
+        "placement_ms": 1401.4092000434175,
+        "shots": {
+          "density": 64,
+          "champion": 51,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85050,
+        "placement_ms": 1371.3162000058219,
+        "shots": {
+          "density": 57,
+          "champion": 50,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85051,
+        "placement_ms": 1382.0058000274003,
+        "shots": {
+          "density": 68,
+          "champion": 61,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85052,
+        "placement_ms": 1413.0006000050344,
+        "shots": {
+          "density": 41,
+          "champion": 52,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85053,
+        "placement_ms": 1448.0713999946602,
+        "shots": {
+          "density": 53,
+          "champion": 62,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85054,
+        "placement_ms": 1423.6817000200972,
+        "shots": {
+          "density": 62,
+          "champion": 43,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85055,
+        "placement_ms": 1441.8903999612667,
+        "shots": {
+          "density": 22,
+          "champion": 55,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85056,
+        "placement_ms": 1389.280300005339,
+        "shots": {
+          "density": 42,
+          "champion": 45,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85057,
+        "placement_ms": 1407.6142000267282,
+        "shots": {
+          "density": 40,
+          "champion": 60,
+          "balanced": 60
+        }
+      },
+      {
+        "seed": 85058,
+        "placement_ms": 1382.3172000120394,
+        "shots": {
+          "density": 51,
+          "champion": 55,
+          "balanced": 24
+        }
+      },
+      {
+        "seed": 85059,
+        "placement_ms": 1361.377299996093,
+        "shots": {
+          "density": 60,
+          "champion": 37,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85060,
+        "placement_ms": 1420.008199987933,
+        "shots": {
+          "density": 51,
+          "champion": 52,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85061,
+        "placement_ms": 1421.7246999614872,
+        "shots": {
+          "density": 48,
+          "champion": 42,
+          "balanced": 33
+        }
+      },
+      {
+        "seed": 85062,
+        "placement_ms": 1421.8888999894261,
+        "shots": {
+          "density": 58,
+          "champion": 50,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85063,
+        "placement_ms": 1435.9014999936335,
+        "shots": {
+          "density": 45,
+          "champion": 53,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85064,
+        "placement_ms": 1389.1499000019394,
+        "shots": {
+          "density": 66,
+          "champion": 60,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85065,
+        "placement_ms": 1370.043600036297,
+        "shots": {
+          "density": 56,
+          "champion": 37,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85066,
+        "placement_ms": 1421.8130000517704,
+        "shots": {
+          "density": 47,
+          "champion": 63,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85067,
+        "placement_ms": 1370.0475000077859,
+        "shots": {
+          "density": 61,
+          "champion": 51,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85068,
+        "placement_ms": 1417.0978000038303,
+        "shots": {
+          "density": 65,
+          "champion": 58,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85069,
+        "placement_ms": 1441.963899997063,
+        "shots": {
+          "density": 60,
+          "champion": 53,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85070,
+        "placement_ms": 1419.7291000164114,
+        "shots": {
+          "density": 67,
+          "champion": 51,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85071,
+        "placement_ms": 1399.3011999991722,
+        "shots": {
+          "density": 33,
+          "champion": 59,
+          "balanced": 31
+        }
+      },
+      {
+        "seed": 85072,
+        "placement_ms": 1419.3997000111267,
+        "shots": {
+          "density": 56,
+          "champion": 50,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85073,
+        "placement_ms": 1387.2388000017963,
+        "shots": {
+          "density": 44,
+          "champion": 63,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85074,
+        "placement_ms": 1391.6528999689035,
+        "shots": {
+          "density": 43,
+          "champion": 49,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85075,
+        "placement_ms": 1365.597500000149,
+        "shots": {
+          "density": 67,
+          "champion": 55,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85076,
+        "placement_ms": 1414.4187000347301,
+        "shots": {
+          "density": 54,
+          "champion": 55,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85077,
+        "placement_ms": 1426.5337000251748,
+        "shots": {
+          "density": 51,
+          "champion": 52,
+          "balanced": 46
+        }
+      },
+      {
+        "seed": 85078,
+        "placement_ms": 1455.464500002563,
+        "shots": {
+          "density": 44,
+          "champion": 54,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85079,
+        "placement_ms": 1428.7390999961644,
+        "shots": {
+          "density": 36,
+          "champion": 64,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85080,
+        "placement_ms": 1405.7719000265934,
+        "shots": {
+          "density": 43,
+          "champion": 55,
+          "balanced": 31
+        }
+      },
+      {
+        "seed": 85081,
+        "placement_ms": 1397.412999998778,
+        "shots": {
+          "density": 46,
+          "champion": 43,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85082,
+        "placement_ms": 1403.045299986843,
+        "shots": {
+          "density": 62,
+          "champion": 27,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85083,
+        "placement_ms": 1396.4371999609284,
+        "shots": {
+          "density": 51,
+          "champion": 53,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85084,
+        "placement_ms": 1432.1612999774516,
+        "shots": {
+          "density": 62,
+          "champion": 62,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85085,
+        "placement_ms": 1400.5233999923803,
+        "shots": {
+          "density": 60,
+          "champion": 63,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85086,
+        "placement_ms": 1433.2782999845222,
+        "shots": {
+          "density": 57,
+          "champion": 28,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85087,
+        "placement_ms": 1456.8519000313245,
+        "shots": {
+          "density": 59,
+          "champion": 49,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85088,
+        "placement_ms": 1368.3649000013247,
+        "shots": {
+          "density": 65,
+          "champion": 56,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85089,
+        "placement_ms": 1392.4048999906518,
+        "shots": {
+          "density": 65,
+          "champion": 41,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85090,
+        "placement_ms": 1390.532899997197,
+        "shots": {
+          "density": 46,
+          "champion": 48,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85091,
+        "placement_ms": 1395.8768000011332,
+        "shots": {
+          "density": 43,
+          "champion": 58,
+          "balanced": 40
+        }
+      },
+      {
+        "seed": 85092,
+        "placement_ms": 1433.2791000488214,
+        "shots": {
+          "density": 57,
+          "champion": 50,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85093,
+        "placement_ms": 1430.2259999676608,
+        "shots": {
+          "density": 58,
+          "champion": 43,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85094,
+        "placement_ms": 1459.6737999818288,
+        "shots": {
+          "density": 55,
+          "champion": 58,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85095,
+        "placement_ms": 1451.270299963653,
+        "shots": {
+          "density": 54,
+          "champion": 54,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85096,
+        "placement_ms": 1378.1047000084072,
+        "shots": {
+          "density": 47,
+          "champion": 49,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85097,
+        "placement_ms": 1419.397099991329,
+        "shots": {
+          "density": 54,
+          "champion": 52,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85098,
+        "placement_ms": 1400.7331000175327,
+        "shots": {
+          "density": 65,
+          "champion": 33,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85099,
+        "placement_ms": 1401.2578999972902,
+        "shots": {
+          "density": 30,
+          "champion": 41,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85100,
+        "placement_ms": 1430.1462000003085,
+        "shots": {
+          "density": 54,
+          "champion": 48,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85101,
+        "placement_ms": 1466.757299960591,
+        "shots": {
+          "density": 43,
+          "champion": 58,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85102,
+        "placement_ms": 1461.007600009907,
+        "shots": {
+          "density": 65,
+          "champion": 66,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85103,
+        "placement_ms": 1477.125600038562,
+        "shots": {
+          "density": 55,
+          "champion": 46,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85104,
+        "placement_ms": 1455.9952999697998,
+        "shots": {
+          "density": 27,
+          "champion": 61,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85105,
+        "placement_ms": 1417.9481000173837,
+        "shots": {
+          "density": 68,
+          "champion": 65,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85106,
+        "placement_ms": 1455.9821000439115,
+        "shots": {
+          "density": 46,
+          "champion": 49,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85107,
+        "placement_ms": 1433.154900034424,
+        "shots": {
+          "density": 53,
+          "champion": 52,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85108,
+        "placement_ms": 1482.0286000031047,
+        "shots": {
+          "density": 51,
+          "champion": 51,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85109,
+        "placement_ms": 1458.079700008966,
+        "shots": {
+          "density": 53,
+          "champion": 52,
+          "balanced": 50
+        }
+      },
+      {
+        "seed": 85110,
+        "placement_ms": 1481.1274000094272,
+        "shots": {
+          "density": 64,
+          "champion": 60,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85111,
+        "placement_ms": 1450.9655000292696,
+        "shots": {
+          "density": 52,
+          "champion": 56,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85112,
+        "placement_ms": 1405.7003000052646,
+        "shots": {
+          "density": 69,
+          "champion": 44,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85113,
+        "placement_ms": 1367.1103999949992,
+        "shots": {
+          "density": 57,
+          "champion": 57,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85114,
+        "placement_ms": 1430.7570999953896,
+        "shots": {
+          "density": 64,
+          "champion": 57,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85115,
+        "placement_ms": 1374.6951000066474,
+        "shots": {
+          "density": 64,
+          "champion": 41,
+          "balanced": 33
+        }
+      },
+      {
+        "seed": 85116,
+        "placement_ms": 1433.9003999484703,
+        "shots": {
+          "density": 57,
+          "champion": 43,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85117,
+        "placement_ms": 1377.9530999599956,
+        "shots": {
+          "density": 43,
+          "champion": 40,
+          "balanced": 41
+        }
+      },
+      {
+        "seed": 85118,
+        "placement_ms": 1431.3906999886967,
+        "shots": {
+          "density": 60,
+          "champion": 60,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85119,
+        "placement_ms": 1447.6460000150837,
+        "shots": {
+          "density": 50,
+          "champion": 43,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85120,
+        "placement_ms": 1382.6963999890722,
+        "shots": {
+          "density": 62,
+          "champion": 63,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85121,
+        "placement_ms": 1440.3635999769904,
+        "shots": {
+          "density": 57,
+          "champion": 61,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85122,
+        "placement_ms": 1391.8668999685906,
+        "shots": {
+          "density": 53,
+          "champion": 54,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85123,
+        "placement_ms": 1378.7478000158444,
+        "shots": {
+          "density": 46,
+          "champion": 44,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85124,
+        "placement_ms": 1436.654000019189,
+        "shots": {
+          "density": 67,
+          "champion": 52,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85125,
+        "placement_ms": 1442.2736000269651,
+        "shots": {
+          "density": 63,
+          "champion": 61,
+          "balanced": 30
+        }
+      },
+      {
+        "seed": 85126,
+        "placement_ms": 1467.3296000109985,
+        "shots": {
+          "density": 36,
+          "champion": 47,
+          "balanced": 28
+        }
+      },
+      {
+        "seed": 85127,
+        "placement_ms": 1460.6090000015683,
+        "shots": {
+          "density": 63,
+          "champion": 54,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85128,
+        "placement_ms": 1386.4136000047438,
+        "shots": {
+          "density": 49,
+          "champion": 53,
+          "balanced": 66
+        }
+      },
+      {
+        "seed": 85129,
+        "placement_ms": 1388.1578000145964,
+        "shots": {
+          "density": 44,
+          "champion": 51,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85130,
+        "placement_ms": 1408.6576999980025,
+        "shots": {
+          "density": 56,
+          "champion": 48,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85131,
+        "placement_ms": 1377.2717000101693,
+        "shots": {
+          "density": 59,
+          "champion": 60,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85132,
+        "placement_ms": 1435.3438999969512,
+        "shots": {
+          "density": 66,
+          "champion": 56,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85133,
+        "placement_ms": 1453.37030000519,
+        "shots": {
+          "density": 44,
+          "champion": 36,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85134,
+        "placement_ms": 1451.1822999920696,
+        "shots": {
+          "density": 45,
+          "champion": 50,
+          "balanced": 35
+        }
+      },
+      {
+        "seed": 85135,
+        "placement_ms": 1436.4683000021614,
+        "shots": {
+          "density": 56,
+          "champion": 53,
+          "balanced": 64
+        }
+      },
+      {
+        "seed": 85136,
+        "placement_ms": 1378.7053999840282,
+        "shots": {
+          "density": 65,
+          "champion": 37,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85137,
+        "placement_ms": 1420.5871999729425,
+        "shots": {
+          "density": 50,
+          "champion": 44,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85138,
+        "placement_ms": 1391.4681000169367,
+        "shots": {
+          "density": 51,
+          "champion": 48,
+          "balanced": 38
+        }
+      },
+      {
+        "seed": 85139,
+        "placement_ms": 1367.7851000102237,
+        "shots": {
+          "density": 58,
+          "champion": 51,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85140,
+        "placement_ms": 1415.1073000393808,
+        "shots": {
+          "density": 46,
+          "champion": 39,
+          "balanced": 43
+        }
+      },
+      {
+        "seed": 85141,
+        "placement_ms": 1393.9416000503115,
+        "shots": {
+          "density": 53,
+          "champion": 56,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85142,
+        "placement_ms": 1422.3916999762878,
+        "shots": {
+          "density": 57,
+          "champion": 47,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85143,
+        "placement_ms": 1479.814499965869,
+        "shots": {
+          "density": 56,
+          "champion": 51,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85144,
+        "placement_ms": 1376.2971000396647,
+        "shots": {
+          "density": 46,
+          "champion": 54,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85145,
+        "placement_ms": 1372.6292999926955,
+        "shots": {
+          "density": 59,
+          "champion": 54,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85146,
+        "placement_ms": 1381.1408000183292,
+        "shots": {
+          "density": 55,
+          "champion": 50,
+          "balanced": 48
+        }
+      },
+      {
+        "seed": 85147,
+        "placement_ms": 1397.246600012295,
+        "shots": {
+          "density": 45,
+          "champion": 46,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85148,
+        "placement_ms": 1412.5035000033677,
+        "shots": {
+          "density": 48,
+          "champion": 57,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85149,
+        "placement_ms": 1400.4171999986283,
+        "shots": {
+          "density": 59,
+          "champion": 48,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85150,
+        "placement_ms": 1401.9015000085346,
+        "shots": {
+          "density": 58,
+          "champion": 49,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85151,
+        "placement_ms": 1434.0534000075422,
+        "shots": {
+          "density": 56,
+          "champion": 42,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85152,
+        "placement_ms": 1360.767100006342,
+        "shots": {
+          "density": 35,
+          "champion": 45,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85153,
+        "placement_ms": 1412.7780999988317,
+        "shots": {
+          "density": 62,
+          "champion": 48,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85154,
+        "placement_ms": 1394.043700012844,
+        "shots": {
+          "density": 53,
+          "champion": 53,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85155,
+        "placement_ms": 1387.9731000051834,
+        "shots": {
+          "density": 52,
+          "champion": 57,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85156,
+        "placement_ms": 1440.8870000042953,
+        "shots": {
+          "density": 62,
+          "champion": 51,
+          "balanced": 42
+        }
+      },
+      {
+        "seed": 85157,
+        "placement_ms": 1422.5517999730073,
+        "shots": {
+          "density": 65,
+          "champion": 48,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85158,
+        "placement_ms": 1469.8439000057988,
+        "shots": {
+          "density": 40,
+          "champion": 51,
+          "balanced": 44
+        }
+      },
+      {
+        "seed": 85159,
+        "placement_ms": 1417.4778000451624,
+        "shots": {
+          "density": 53,
+          "champion": 39,
+          "balanced": 58
+        }
+      },
+      {
+        "seed": 85160,
+        "placement_ms": 1400.8142999955453,
+        "shots": {
+          "density": 57,
+          "champion": 52,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85161,
+        "placement_ms": 1380.6431000120938,
+        "shots": {
+          "density": 48,
+          "champion": 45,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85162,
+        "placement_ms": 1381.1458999989554,
+        "shots": {
+          "density": 63,
+          "champion": 51,
+          "balanced": 57
+        }
+      },
+      {
+        "seed": 85163,
+        "placement_ms": 1400.5030000116676,
+        "shots": {
+          "density": 59,
+          "champion": 54,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85164,
+        "placement_ms": 1472.12039999431,
+        "shots": {
+          "density": 43,
+          "champion": 48,
+          "balanced": 38
+        }
+      },
+      {
+        "seed": 85165,
+        "placement_ms": 1440.1259999722242,
+        "shots": {
+          "density": 55,
+          "champion": 54,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85166,
+        "placement_ms": 1419.640599982813,
+        "shots": {
+          "density": 34,
+          "champion": 48,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85167,
+        "placement_ms": 1449.7771000023931,
+        "shots": {
+          "density": 68,
+          "champion": 55,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85168,
+        "placement_ms": 1379.2642999906093,
+        "shots": {
+          "density": 61,
+          "champion": 52,
+          "balanced": 39
+        }
+      },
+      {
+        "seed": 85169,
+        "placement_ms": 1393.948899989482,
+        "shots": {
+          "density": 51,
+          "champion": 44,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85170,
+        "placement_ms": 1409.9188999971375,
+        "shots": {
+          "density": 54,
+          "champion": 49,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85171,
+        "placement_ms": 1392.7588000078686,
+        "shots": {
+          "density": 48,
+          "champion": 55,
+          "balanced": 62
+        }
+      },
+      {
+        "seed": 85172,
+        "placement_ms": 1457.225899968762,
+        "shots": {
+          "density": 32,
+          "champion": 53,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85173,
+        "placement_ms": 1430.642399995122,
+        "shots": {
+          "density": 59,
+          "champion": 28,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85174,
+        "placement_ms": 1467.0703999581747,
+        "shots": {
+          "density": 43,
+          "champion": 59,
+          "balanced": 60
+        }
+      },
+      {
+        "seed": 85175,
+        "placement_ms": 1439.4018999882974,
+        "shots": {
+          "density": 46,
+          "champion": 58,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85176,
+        "placement_ms": 1377.2797999554314,
+        "shots": {
+          "density": 69,
+          "champion": 47,
+          "balanced": 45
+        }
+      },
+      {
+        "seed": 85177,
+        "placement_ms": 1355.3938000113703,
+        "shots": {
+          "density": 61,
+          "champion": 39,
+          "balanced": 37
+        }
+      },
+      {
+        "seed": 85178,
+        "placement_ms": 1403.6047999979928,
+        "shots": {
+          "density": 49,
+          "champion": 64,
+          "balanced": 65
+        }
+      },
+      {
+        "seed": 85179,
+        "placement_ms": 1368.2114999974146,
+        "shots": {
+          "density": 51,
+          "champion": 62,
+          "balanced": 51
+        }
+      },
+      {
+        "seed": 85180,
+        "placement_ms": 1429.5900000142865,
+        "shots": {
+          "density": 54,
+          "champion": 42,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85181,
+        "placement_ms": 1440.4521000105888,
+        "shots": {
+          "density": 54,
+          "champion": 52,
+          "balanced": 61
+        }
+      },
+      {
+        "seed": 85182,
+        "placement_ms": 1474.413399992045,
+        "shots": {
+          "density": 42,
+          "champion": 48,
+          "balanced": 49
+        }
+      },
+      {
+        "seed": 85183,
+        "placement_ms": 1415.270800003782,
+        "shots": {
+          "density": 41,
+          "champion": 50,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85184,
+        "placement_ms": 1389.5236999960616,
+        "shots": {
+          "density": 57,
+          "champion": 44,
+          "balanced": 54
+        }
+      },
+      {
+        "seed": 85185,
+        "placement_ms": 1382.1693999925628,
+        "shots": {
+          "density": 59,
+          "champion": 53,
+          "balanced": 69
+        }
+      },
+      {
+        "seed": 85186,
+        "placement_ms": 1419.236899993848,
+        "shots": {
+          "density": 61,
+          "champion": 53,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85187,
+        "placement_ms": 1348.169999953825,
+        "shots": {
+          "density": 57,
+          "champion": 52,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85188,
+        "placement_ms": 1427.7374999946915,
+        "shots": {
+          "density": 45,
+          "champion": 63,
+          "balanced": 31
+        }
+      },
+      {
+        "seed": 85189,
+        "placement_ms": 1435.411699989345,
+        "shots": {
+          "density": 54,
+          "champion": 64,
+          "balanced": 23
+        }
+      },
+      {
+        "seed": 85190,
+        "placement_ms": 1444.6720000123605,
+        "shots": {
+          "density": 57,
+          "champion": 59,
+          "balanced": 34
+        }
+      },
+      {
+        "seed": 85191,
+        "placement_ms": 1465.6309999991208,
+        "shots": {
+          "density": 56,
+          "champion": 55,
+          "balanced": 55
+        }
+      },
+      {
+        "seed": 85192,
+        "placement_ms": 1385.9306999947876,
+        "shots": {
+          "density": 50,
+          "champion": 58,
+          "balanced": 59
+        }
+      },
+      {
+        "seed": 85193,
+        "placement_ms": 1399.49710003566,
+        "shots": {
+          "density": 56,
+          "champion": 52,
+          "balanced": 52
+        }
+      },
+      {
+        "seed": 85194,
+        "placement_ms": 1384.6559000085108,
+        "shots": {
+          "density": 38,
+          "champion": 37,
+          "balanced": 36
+        }
+      },
+      {
+        "seed": 85195,
+        "placement_ms": 1360.4969000443816,
+        "shots": {
+          "density": 61,
+          "champion": 42,
+          "balanced": 56
+        }
+      },
+      {
+        "seed": 85196,
+        "placement_ms": 1467.791999981273,
+        "shots": {
+          "density": 38,
+          "champion": 59,
+          "balanced": 47
+        }
+      },
+      {
+        "seed": 85197,
+        "placement_ms": 1450.291900022421,
+        "shots": {
+          "density": 60,
+          "champion": 53,
+          "balanced": 34
+        }
+      },
+      {
+        "seed": 85198,
+        "placement_ms": 1457.419300044421,
+        "shots": {
+          "density": 56,
+          "champion": 52,
+          "balanced": 53
+        }
+      },
+      {
+        "seed": 85199,
+        "placement_ms": 1439.9452999932691,
+        "shots": {
+          "density": 39,
+          "champion": 66,
+          "balanced": 62
+        }
+      }
+    ]
+  }
+]

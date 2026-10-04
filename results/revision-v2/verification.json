@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "new_duels": 9410,
+  "faults": 0,
+  "illegal_actions": 0,
+  "timeouts": 0,
+  "max_action_ms_both_players": 26.536499965004623,
+  "max_setup_ms_both_players": 1998.76090005273,
+  "frozen_fortress_source_policy_verified": true,
+  "all_conditions_first_pair_reproduced": true,
+  "demo": "replays/fortress-demo.json",
+  "demo_winner": 0,
+  "ui_checks_each_viewport": [
+    28,
+    28
+  ],
+  "legacy_verification": "results/revision-v2/legacy-verification.json",
+  "fortress_external_equivalence_games": 10
+}

@@ -1,0 +1,32 @@
+[46696:72596:1004/090119.811:ERROR:chrome\browser\importer\edge_china_browsers\edge_qqbrowser_importer_utils_win.cc:165] QQBrowser user data path not found.
+[46696:73856:1004/090120.449:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/40528867.
+[46696:73856:1004/090120.464:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090120.465:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090120.467:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090120.467:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090120.492:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090120.653:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090120.853:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090121.009:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090121.179:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090121.325:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090121.441:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090121.441:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090121.567:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090121.712:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090121.875:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090121.984:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090122.075:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090122.075:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090122.173:ERROR:chrome\browser\task_manager\providers\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a "Renderer" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/40528867.
+[46696:73856:1004/090122.230:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090122.419:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090122.590:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090122.701:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090122.851:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090122.990:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090122.995:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090123.019:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090123.022:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+[46696:73856:1004/090123.026:ERROR:components\page_load_metrics\browser\page_load_metrics_update_dispatcher.cc:88] Invalid response_start 0.478 s for parse_start 0.01 s
+386722 bytes written to file D:\Codex\2026-10-04\ai-bot-bot-battleship-bot-bot\outputs\battleship\results\revision-v2\ui-desktop-verified.png

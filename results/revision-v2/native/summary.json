@@ -1,0 +1,81 @@
+{
+  "candidate": "balanced",
+  "rules": {
+    "size": 10,
+    "fleet": [
+      5,
+      4,
+      3,
+      3,
+      2
+    ],
+    "rule_id": "local-classic-touching-v1"
+  },
+  "seed_start": 1610000,
+  "pairs_per_cell": 300,
+  "time_limit_ms": 1000,
+  "timing_enforcement": "trusted in-process bots: measured after return; external adapter uses hard deadline",
+  "python": "3.14.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "workers": 4,
+  "logical_cpus": 20,
+  "results": [
+    {
+      "opponent": "champion",
+      "style": "native",
+      "games": 600,
+      "independent_seeds": 300,
+      "wins": 264,
+      "win_rate": 0.44,
+      "paired_bootstrap_95ci": [
+        0.385,
+        0.495
+      ],
+      "first_win_rate": 0.45666666666666667,
+      "second_win_rate": 0.42333333333333334,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 1.9183036799125757,
+      "action_ms_p95": 7.516100013162941,
+      "action_ms_max": 18.999199965037405
+    },
+    {
+      "opponent": "density",
+      "style": "native",
+      "games": 600,
+      "independent_seeds": 300,
+      "wins": 402,
+      "win_rate": 0.67,
+      "paired_bootstrap_95ci": [
+        0.6183333333333333,
+        0.7216666666666667
+      ],
+      "first_win_rate": 0.6866666666666666,
+      "second_win_rate": 0.6533333333333333,
+      "faults": 0,
+      "illegal_actions": 0,
+      "timeouts": 0,
+      "action_ms_mean": 2.035607659466074,
+      "action_ms_p95": 7.899099960923195,
+      "action_ms_max": 12.678900035098195
+    }
+  ],
+  "source_sha256": {
+    "battleship/__init__.py": "8f3b01668606f28c076dab868dc986fa0eafb40dcf5e44374ffdbaf987ebe6ff",
+    "battleship/__main__.py": "26679836280a61d69a20587ee77fe2e3edee28e1adfa5069ba3d4fc30c1c0b4d",
+    "battleship/arena.py": "80f5d027e9611e858779cb693ff0ae78c0bcb8e3dfafcaf3fcf63e23e00ee811",
+    "battleship/bots.py": "dba870f2e4855da0a53fb934a61619a99c5818088055dc2f46b6a6fb25ccd5e2",
+    "battleship/core.py": "14239233c3a44d94ff4bac33b325153cb1f52613892fbd1b815e7fb9151c453a",
+    "battleship/optimize.py": "9fe03950ac185cb640d041b8034ece77745272e2b088cb1058f7bda267ccb152",
+    "battleship/protocol.py": "7a37ecf11d03fff146c93999cb69b0eea00521c993c32152125309c9d74e0a4e",
+    "battleship/webui.py": "7d5506e115e1421b0790f8932305b67d352dc25401e06e5c4089efe2b170cc8c"
+  },
+  "policies_sha256": {
+    "policies/attack-only.json": "4c206af2958d8cd5a8fa33ea57c67ac9eb369dc2adbec365b2e961e8db247ec0",
+    "policies/champion-v2.json": "84fb9c8825001aaf6d8a875de8fc432ba181d51524181f0805a066b521887e80",
+    "policies/champion.json": "9a32112e88f5b22226a54989cd6b872a1f6c324ee65a529b9b0e8400a253f71f",
+    "policies/defended-density.json": "a501b50c75a0cd444fa2b4f7f692e4feab582bacfe2cfe084606da1d48333ef6"
+  },
+  "wall_seconds": 133.18177379999543
+}

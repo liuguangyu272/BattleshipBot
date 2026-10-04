@@ -12,7 +12,7 @@ from battleship.core import Rules, Target, placements, mask_of, deploy
 
 class BotTests(unittest.TestCase):
     def test_all_bots_complete_games(self):
-        for name in ["random", "hunt", "density", "admiral", "joint"]:
+        for name in ["random", "hunt", "density", "admiral", "joint", "balanced"]:
             for seed in range(3):
                 with self.subTest(name=name, seed=seed):
                     record, replay = play((name, "density"), seed, first=seed % 2)
@@ -23,7 +23,7 @@ class BotTests(unittest.TestCase):
                     verify_replay(replay)
 
     def test_save_reload_reproduces_entire_trajectory(self):
-        p = Policy(hunt_power=.5, samples=32)
+        p = Policy(hunt_power=.5, samples=32, target_edge_scale=0, edge_bias=.2)
         scratch = Path(__file__).resolve().parents[1] / "work"
         scratch.mkdir(parents=True, exist_ok=True)
         with tempfile.TemporaryDirectory(dir=scratch) as temp:
@@ -94,9 +94,21 @@ class BotTests(unittest.TestCase):
         self.assertEqual(obs, before)
 
     def test_policy_rejects_nonfinite(self):
-        for p in [Policy(samples=-1), Policy(sink_bonus=float("nan")), Policy(joint_mix=2), Policy(mode="cheat")]:
+        for p in [Policy(samples=-1), Policy(sink_bonus=float("nan")), Policy(joint_mix=2), Policy(mode="cheat"),
+                  Policy(target_edge_scale=-1), Policy(target_edge_scale=float("nan"))]:
             with self.assertRaises(ValueError):
                 p.validate()
+
+    def test_balanced_indistinguishable_hidden_layouts(self):
+        from battleship.core import Game
+        rules = Rules(4, (2,))
+        a = Game([[[0, 1]], [[2, 3]]], rules)
+        b = Game([[[0, 1]], [[6, 7]]], rules)
+        left, right = make_bot("balanced"), make_bot("balanced")
+        for bot in (left, right):
+            bot.reset(rules.to_dict(), 991)
+        self.assertEqual(a.observe(0), b.observe(0))
+        self.assertEqual(left.act(a.observe(0)), right.act(b.observe(0)))
 
     def test_bellman_exact_two_endpoints(self):
         rules = Rules(4, (2,))
@@ -116,6 +128,17 @@ class BotTests(unittest.TestCase):
         for bot in (a, b):
             bot.reset(Rules().to_dict(), 333)
         self.assertEqual(a.place(), b.place())
+
+    def test_robust_deployment_is_private_reproducible_and_valid(self):
+        from battleship.core import validate_fleet
+        p = Policy(defense_mode="robust", defense_candidates=3)
+        left, right = make_bot("admiral", p), make_bot("admiral", p)
+        for bot in (left, right):
+            bot.reset(Rules().to_dict(), 5571)
+        # place() accepts no opponent observation or referee state.
+        fleet = left.place()
+        self.assertEqual(validate_fleet(fleet), fleet)
+        self.assertEqual(fleet, right.place())
 
     def test_faults_forfeit_and_cleanup(self):
         from unittest.mock import patch

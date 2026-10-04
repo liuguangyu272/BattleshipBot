@@ -65,11 +65,13 @@ class Policy:
     info_bonus: float = 0.0
     parity_bonus: float = 0.0
     edge_bias: float = 0.0
+    target_edge_scale: float = 1.0
     target_bonus: float = 0.0
     joint_mix: float = 1.0
     exact_limit: int = 20000
     endgame_limit: int = 0
     defense_candidates: int = 0
+    defense_mode: str = "legacy"
     deployment: str = "mixed"
 
     def validate(self):
@@ -83,12 +85,16 @@ class Policy:
             raise ValueError("endgame_limit must be 0..20")
         if type(self.defense_candidates) is not int or not 0 <= self.defense_candidates <= 64:
             raise ValueError("defense_candidates must be 0..64")
-        for key in ("hunt_power", "length_power", "target_power", "sink_bonus", "info_bonus", "parity_bonus", "edge_bias", "target_bonus", "joint_mix"):
+        if self.defense_mode not in ("legacy", "robust"):
+            raise ValueError("defense_mode must be legacy or robust")
+        for key in ("hunt_power", "length_power", "target_power", "sink_bonus", "info_bonus", "parity_bonus", "edge_bias", "target_edge_scale", "target_bonus", "joint_mix"):
             v = getattr(self, key)
             if not isinstance(v, (int, float)) or not math.isfinite(v) or abs(v) > 10:
                 raise ValueError("invalid policy parameter: " + key)
         if not 0 <= self.joint_mix <= 1:
             raise ValueError("joint_mix must be 0..1")
+        if not 0 <= self.target_edge_scale <= 1:
+            raise ValueError("target_edge_scale must be 0..1")
         if self.deployment not in ("uniform", "mixed", "edge", "cluster", "spread"):
             raise ValueError("invalid deployment")
         return self
@@ -120,6 +126,8 @@ class DensityBot(RandomBot):
         Only our own candidate boards are inspected. The simulations are part of
         deployment, do not have access to the actual opponent's hidden state.
         """
+        if self.policy.defense_mode == "robust":
+            return self.robust_place()
         candidates = []
         for i in range(self.policy.defense_candidates):
             fleet = deploy(self.rng, self.rules, self.policy.deployment)
@@ -136,6 +144,35 @@ class DensityBot(RandomBot):
             candidates.append((score, fleet))
         candidates.sort(key=lambda item: item[0], reverse=True)
         # Stochastic top-two selection avoids turning placement into a fixed pattern.
+        return self.rng.choice(candidates[:min(2, len(candidates))])[1]
+
+    def robust_place(self):
+        """Select fresh fleets against distinct search priors, not just center-first.
+
+        The minimum probability-attacker survival gets most of the weight, so
+        an edge-heavy fleet cannot win selection by exploiting only one prior.
+        Only own proposed fleets and private simulation random seeds are used.
+        """
+        candidates = []
+        attackers = [Policy(mode="density", target_power=3, sink_bonus=.15),
+                     Policy(mode="density", length_power=5, edge_bias=.2, target_power=2, sink_bonus=0),
+                     Policy(mode="density", length_power=1, edge_bias=.05, target_edge_scale=0,
+                            target_power=2, sink_bonus=0)]
+        for _ in range(self.policy.defense_candidates):
+            fleet = deploy(self.rng, self.rules, self.policy.deployment)
+            costs = []
+            for p in attackers:
+                attacker = DensityBot(p)
+                attacker.reset(self.rules.to_dict(), self.rng.getrandbits(64))
+                target = Target(fleet, self.rules)
+                while not target.done:
+                    target.fire(attacker.act(target.observation()))
+                costs.append(target.shots.bit_count())
+            # A weakest-opponent score controls one-prior exploitation; the mean
+            # breaks ties without learning any actual opponent hidden state.
+            score = .7 * min(costs) + .3 * sum(costs)/len(costs)
+            candidates.append((score, fleet))
+        candidates.sort(key=lambda item: item[0], reverse=True)
         return self.rng.choice(candidates[:min(2, len(candidates))])[1]
 
     def candidates(self, obs):
@@ -167,11 +204,13 @@ class DensityBot(RandomBot):
         legal, n = obs["legal_actions"], self.rules.size
         if not legal or obs["done"]:
             raise ValueError("no action in terminal observation")
+        has_hits = any(v == 2 for v in obs["grid"])
+        edge_bias = self.policy.edge_bias * (self.policy.target_edge_scale if has_hits else 1.0)
         for c in legal:
             r, col = divmod(c, n)
             edge = min(r, col, n-1-r, n-1-col)
-            scores[c] *= math.exp(-self.policy.edge_bias * edge)
-            if not any(v == 2 for v in obs["grid"]):
+            scores[c] *= math.exp(-edge_bias * edge)
+            if not has_hits:
                 scores[c] *= 1 + self.policy.parity_bonus * ((r + col) % min(obs["remaining"]) == 0)
         best = max(scores[c] for c in legal)
         choice = self.rng.choice([c for c in legal if scores[c] >= best - 1e-10])
@@ -419,8 +458,9 @@ class PosteriorBot(DensityBot):
 
 
 def make_bot(name="admiral", policy=None):
-    if name == "champion":
-        path = Path(__file__).resolve().parent.parent / "policies" / "champion.json"
+    if name in ("champion", "balanced", "fortress"):
+        filename = {"champion": "champion.json", "balanced": "champion-v2.json", "fortress": "fortress.json"}[name]
+        path = Path(__file__).resolve().parent.parent / "policies" / filename
         p = policy or Policy.load(path)
         return DensityBot(p) if p.mode == "density" else PosteriorBot(p)
     if name.startswith("exec:"):

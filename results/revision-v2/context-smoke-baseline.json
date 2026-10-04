@@ -1,0 +1,611 @@
+{
+  "context": null,
+  "policy": {
+    "version": 1,
+    "mode": "hybrid",
+    "samples": 256,
+    "hunt_power": 0,
+    "length_power": 5,
+    "target_power": 2,
+    "sink_bonus": 0,
+    "info_bonus": 0.0,
+    "parity_bonus": 0,
+    "edge_bias": 0.2,
+    "target_edge_scale": 1.0,
+    "target_bonus": 1,
+    "joint_mix": 0.5,
+    "exact_limit": 20000,
+    "endgame_limit": 6,
+    "defense_candidates": 12,
+    "defense_mode": "legacy",
+    "deployment": "mixed"
+  },
+  "boards": 64,
+  "mean_shots": 44.609375,
+  "by_style": {
+    "uniform": 45.5625,
+    "edge": 43.25,
+    "cluster": 45.125,
+    "spread": 44.5
+  },
+  "max_action_ms": 10.996300028637052,
+  "mean_board_ms": 65.80299216875574,
+  "rows": [
+    {
+      "seed": 80000,
+      "style": "uniform",
+      "shots": 47,
+      "ms": 59.15849993471056,
+      "max_ms": 5.691800033673644,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80000,
+      "style": "edge",
+      "shots": 45,
+      "ms": 72.86670006578788,
+      "max_ms": 5.926800018642098,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80000,
+      "style": "cluster",
+      "shots": 43,
+      "ms": 54.227199929300696,
+      "max_ms": 6.0674999840557575,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80000,
+      "style": "spread",
+      "shots": 50,
+      "ms": 49.70349988434464,
+      "max_ms": 5.258499993942678,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80001,
+      "style": "uniform",
+      "shots": 48,
+      "ms": 40.73349985992536,
+      "max_ms": 4.967399989254773,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80001,
+      "style": "edge",
+      "shots": 40,
+      "ms": 113.8950000749901,
+      "max_ms": 9.311100002378225,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80001,
+      "style": "cluster",
+      "shots": 46,
+      "ms": 55.9353000135161,
+      "max_ms": 6.636900012381375,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80001,
+      "style": "spread",
+      "shots": 48,
+      "ms": 33.36870006751269,
+      "max_ms": 5.565700004808605,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80002,
+      "style": "uniform",
+      "shots": 47,
+      "ms": 50.1071002217941,
+      "max_ms": 5.360200011637062,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80002,
+      "style": "edge",
+      "shots": 52,
+      "ms": 75.7127003162168,
+      "max_ms": 7.214999990537763,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80002,
+      "style": "cluster",
+      "shots": 48,
+      "ms": 89.46119993925095,
+      "max_ms": 6.988500012084842,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80002,
+      "style": "spread",
+      "shots": 36,
+      "ms": 63.59730020631105,
+      "max_ms": 8.625000016763806,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80003,
+      "style": "uniform",
+      "shots": 45,
+      "ms": 76.08020008774474,
+      "max_ms": 6.183399993460625,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80003,
+      "style": "edge",
+      "shots": 38,
+      "ms": 55.65519991796464,
+      "max_ms": 6.175699993036687,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80003,
+      "style": "cluster",
+      "shots": 46,
+      "ms": 57.27670044871047,
+      "max_ms": 6.0409000143408775,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80003,
+      "style": "spread",
+      "shots": 46,
+      "ms": 63.40229994384572,
+      "max_ms": 7.389200036413968,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80004,
+      "style": "uniform",
+      "shots": 54,
+      "ms": 89.750699873548,
+      "max_ms": 6.486900034360588,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80004,
+      "style": "edge",
+      "shots": 33,
+      "ms": 45.23770010564476,
+      "max_ms": 5.393599974922836,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80004,
+      "style": "cluster",
+      "shots": 37,
+      "ms": 64.04100003419444,
+      "max_ms": 6.137199990916997,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80004,
+      "style": "spread",
+      "shots": 30,
+      "ms": 61.736200004816055,
+      "max_ms": 6.477799965068698,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80005,
+      "style": "uniform",
+      "shots": 29,
+      "ms": 65.95099996775389,
+      "max_ms": 6.691599963232875,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80005,
+      "style": "edge",
+      "shots": 40,
+      "ms": 57.523699826560915,
+      "max_ms": 5.617599992547184,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80005,
+      "style": "cluster",
+      "shots": 44,
+      "ms": 44.294399907812476,
+      "max_ms": 8.331999997608364,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80005,
+      "style": "spread",
+      "shots": 38,
+      "ms": 51.64449999574572,
+      "max_ms": 7.215699995867908,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80006,
+      "style": "uniform",
+      "shots": 52,
+      "ms": 44.403099978808314,
+      "max_ms": 6.057299964595586,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80006,
+      "style": "edge",
+      "shots": 49,
+      "ms": 66.64589984575287,
+      "max_ms": 8.023799979127944,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80006,
+      "style": "cluster",
+      "shots": 39,
+      "ms": 57.71490017650649,
+      "max_ms": 6.024500005878508,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80006,
+      "style": "spread",
+      "shots": 51,
+      "ms": 77.56860018707812,
+      "max_ms": 6.80350000038743,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80007,
+      "style": "uniform",
+      "shots": 47,
+      "ms": 109.15569978533313,
+      "max_ms": 9.297700016759336,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80007,
+      "style": "edge",
+      "shots": 46,
+      "ms": 81.51350024854764,
+      "max_ms": 6.9905000273138285,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80007,
+      "style": "cluster",
+      "shots": 62,
+      "ms": 63.76769981579855,
+      "max_ms": 6.8666000152006745,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80007,
+      "style": "spread",
+      "shots": 35,
+      "ms": 60.6001999694854,
+      "max_ms": 6.970199989154935,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80008,
+      "style": "uniform",
+      "shots": 42,
+      "ms": 78.80500011378899,
+      "max_ms": 6.718700053170323,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80008,
+      "style": "edge",
+      "shots": 36,
+      "ms": 97.8768999921158,
+      "max_ms": 10.996300028637052,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80008,
+      "style": "cluster",
+      "shots": 52,
+      "ms": 62.73140001576394,
+      "max_ms": 6.65229995502159,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80008,
+      "style": "spread",
+      "shots": 46,
+      "ms": 56.31660018116236,
+      "max_ms": 5.843800026923418,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80009,
+      "style": "uniform",
+      "shots": 62,
+      "ms": 71.84699963545427,
+      "max_ms": 6.500600022263825,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80009,
+      "style": "edge",
+      "shots": 36,
+      "ms": 68.3514000265859,
+      "max_ms": 7.493199955206364,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80009,
+      "style": "cluster",
+      "shots": 30,
+      "ms": 68.4460997581482,
+      "max_ms": 6.87019998440519,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80009,
+      "style": "spread",
+      "shots": 48,
+      "ms": 80.19149984465912,
+      "max_ms": 7.747599971480668,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80010,
+      "style": "uniform",
+      "shots": 30,
+      "ms": 69.77200019173324,
+      "max_ms": 7.197500031907111,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80010,
+      "style": "edge",
+      "shots": 35,
+      "ms": 63.10749985277653,
+      "max_ms": 5.476199963595718,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80010,
+      "style": "cluster",
+      "shots": 29,
+      "ms": 68.62640002509579,
+      "max_ms": 7.978700043167919,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80010,
+      "style": "spread",
+      "shots": 53,
+      "ms": 43.845299805980176,
+      "max_ms": 5.293399968650192,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80011,
+      "style": "uniform",
+      "shots": 43,
+      "ms": 71.82509993435815,
+      "max_ms": 6.043199973646551,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80011,
+      "style": "edge",
+      "shots": 51,
+      "ms": 66.21069990796968,
+      "max_ms": 7.690400001592934,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80011,
+      "style": "cluster",
+      "shots": 46,
+      "ms": 42.05990000627935,
+      "max_ms": 6.215399946086109,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80011,
+      "style": "spread",
+      "shots": 48,
+      "ms": 52.028800011612475,
+      "max_ms": 6.122099992353469,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80012,
+      "style": "uniform",
+      "shots": 46,
+      "ms": 62.65059998258948,
+      "max_ms": 6.065299967303872,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80012,
+      "style": "edge",
+      "shots": 46,
+      "ms": 63.969999784603715,
+      "max_ms": 5.944899981841445,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80012,
+      "style": "cluster",
+      "shots": 50,
+      "ms": 53.47279988927767,
+      "max_ms": 7.890200009569526,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80012,
+      "style": "spread",
+      "shots": 44,
+      "ms": 62.13120016036555,
+      "max_ms": 6.160999997518957,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80013,
+      "style": "uniform",
+      "shots": 44,
+      "ms": 56.54939980013296,
+      "max_ms": 6.972600007429719,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80013,
+      "style": "edge",
+      "shots": 36,
+      "ms": 55.71750021772459,
+      "max_ms": 5.679699999745935,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80013,
+      "style": "cluster",
+      "shots": 42,
+      "ms": 69.41029970766976,
+      "max_ms": 7.768299954477698,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80013,
+      "style": "spread",
+      "shots": 33,
+      "ms": 90.00599995488301,
+      "max_ms": 7.5110000325366855,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80014,
+      "style": "uniform",
+      "shots": 47,
+      "ms": 37.93179983040318,
+      "max_ms": 5.094299966003746,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80014,
+      "style": "edge",
+      "shots": 65,
+      "ms": 87.59199979249388,
+      "max_ms": 7.028499967418611,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80014,
+      "style": "cluster",
+      "shots": 58,
+      "ms": 71.20439998107031,
+      "max_ms": 7.430999947246164,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80014,
+      "style": "spread",
+      "shots": 48,
+      "ms": 58.07289987569675,
+      "max_ms": 6.738399970345199,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80015,
+      "style": "uniform",
+      "shots": 46,
+      "ms": 75.02419996308163,
+      "max_ms": 8.67330003529787,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80015,
+      "style": "edge",
+      "shots": 44,
+      "ms": 61.64909980725497,
+      "max_ms": 7.7034999849274755,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80015,
+      "style": "cluster",
+      "shots": 50,
+      "ms": 134.8839999991469,
+      "max_ms": 6.972800008952618,
+      "faults": 0,
+      "last_weights": {}
+    },
+    {
+      "seed": 80015,
+      "style": "spread",
+      "shots": 58,
+      "ms": 56.353800115175545,
+      "max_ms": 6.504099990706891,
+      "faults": 0,
+      "last_weights": {}
+    }
+  ]
+}
